@@ -38,21 +38,21 @@
 	    <img src="<?php bloginfo('template_url'); ?>/image/button.png" class="button" >
 
 	    <div class ="wrapper">
-        <a href="http://140.113.73.45/homepage/"><img src="<?php bloginfo('template_url'); ?>/image/button01.png" class="button01" ></a>
-        <a href="http://140.113.73.45/homepage/"><img src="<?php bloginfo('template_url'); ?>/image/button02.png" class="button02" ></a>
- 	    <a href="http://140.113.73.45/homepage/"><img src="<?php bloginfo('template_url'); ?>/image/button03.png" class="button03" ></a>
+        <a href="<?php echo site_url(); ?>/homepage/"><img src="<?php bloginfo('template_url'); ?>/image/button01.png" class="button01" ></a>
+        <a href="<?php echo site_url(); ?>/homepage/"><img src="<?php bloginfo('template_url'); ?>/image/button02.png" class="button02" ></a>
+ 	    <a href="<?php echo site_url(); ?>/homepage/"><img src="<?php bloginfo('template_url'); ?>/image/button03.png" class="button03" ></a>
  		</div>
  		
  	    <div class ="b1">
-	 		<p>新進人員</p>
+	 		<a href="<?php echo site_url(); ?>/homepage/"><p>新進人員</p></a>
 	    </div>
 
 	    <div class ="b2">
-	 		<p>現職人員</p>
+	 		<a href="<?php echo site_url(); ?>/homepage/"><p>現職人員</p></a>
 	    </div>
 
 	    <div class ="b3">
-	 		<p>退離人員</p>
+	 		<a href="<?php echo site_url(); ?>/homepage/"><p>退離人員</p></a>
 	    </div>
 		</div>
  	    <div class ="footer">

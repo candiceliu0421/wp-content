@@ -20,9 +20,6 @@
 
   <style type="text/css"></style>
 </head>
-<script type="text/javascript">
-  
-</script>
 <body>
 <div class="navbar">
   <div class="triangle"></div>
@@ -32,73 +29,69 @@
 
     <img src="<?php bloginfo('template_url'); ?>/image/language.png" alt="NCTU logo" width="135" height="30" style="position: relative; left: 42%; top: 1.5em;">
 
-    
-    
+    <div id="parallelogram">
+      <ul>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+    </ul> 
+    </div>
+      <div id="content">
+        <div id="nav" style="position: absolute; margin-left: 15%; top: 65%; font-size: 1.3em;">本室簡介</div>
+        <div id="nav" style="position: absolute; margin-left: 27%; top: 65%; font-size: 1.3em;">訊息公告</div>
+        <div id="nav" style="position: absolute; margin-left: 39%; top: 65%; font-size: 1.3em;">法令&表格</div>
+        <div id="nav" style="position: absolute; margin-left: 50%; top: 65%; font-size: 1.3em;">人事業務標準</div>
+        <div id="nav" style="position: absolute; margin-left: 51%; top: 80%; font-size: 1.3em;">作業流程</div>
+        <div id="nav" style="position: absolute; margin-left: 63%; top: 65%; font-size: 1.3em;">公務員廉政</div>
+        <div id="nav" style="position: absolute; margin-left: 63.5%; top: 80%; font-size: 1.3em;">倫理規範</div>
+        <div id="nav" style="position: absolute; margin-left: 73.5%; top: 65%; font-size: 1.3em;">出勤卡鐘位置</div>
+        <div id="nav" style="position: absolute; margin-left: 86%; top: 65%; font-size: 1.3em;">留言板</div>
 
-  <div id="nav1">
-    <div id="navid1">關於本室</div>
-  </div>
-  <div id="nav2">
-    <div id="navid2">訊息公告</div>
-  </div>
-  <div id="nav3">
-    <div id="navid3">法令&表格</div>
-  </div>
-  <div id="nav4">
-    <div id="navid4_1">人事業務標準</div>
-    <div id="navid4_2">作業流程</div>
-  </div>
-  <div id="nav5">
-    <div id="navid5_1">公務員廉政</div>
-    <div id="navid5_2">倫理規範</div>
-  </div>
-  <div id="nav6">
-    <div id="navid6">出勤卡鐘位置</div>
-  </div>
-  <div id="nav7">
-    <div id="navid7">留言版</div>
-  </div>
+      </div>
 
 <div class="line"></div>
 
-  <img src="<?php bloginfo('template_url'); ?>/image/picture.jpg" alt="background" width="100%" height="375" style="position: relative; top: 9.5em; z-index: 0; height: auto; width: 100%;">
+  <img src="<?php bloginfo('template_url'); ?>/image/picture.jpg" alt="background" width="100%" height="375" style="position: relative; top: 2em; z-index: 0;">
 <!-- 左欄box -->
 <div class="one"></div>
 <div class="two"></div>
 <div class="three"></div>
 <!-- 左欄文字 -->
 <div id="left_words">
-  <div id ="left" style="position: absolute; top: 110%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 動態</div>
-  <div id ="left" style="position: absolute; top: 130%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 行事曆</div>
-  <div id ="left" style="position: absolute; top: 175%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 工作</div>
-  <div id ="left" style="position: absolute; top: 195%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 成果</div>
-  <div id ="left" style="position: absolute; top: 240%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 加保</div>
-  <div id ="left" style="position: absolute; top: 260%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 人數</div>
-  <div id ="left" style="position: absolute; top: 262%; left: 9%; font-size: 1.7em; z-index: 8; font-weight: 500; color:  #040000;"> 4,876人</div>
+  <div id ="left" style="position: absolute; top: 110%; left: 3%; font-size: 2.0em; z-index: 5; font-weight: 500; color:  #040000;"> 動態</div>
+  <div id ="left" style="position: absolute; top: 130%; left: 3%; font-size: 2.0em; z-index: 5; font-weight: 500; color:  #040000;"> 行事曆</div>
+  <div id ="left" style="position: absolute; top: 175%; left: 3%; font-size: 2.0em; z-index: 5; font-weight: 500; color:  #040000;"> 工作</div>
+  <div id ="left" style="position: absolute; top: 195%; left: 3%; font-size: 2.0em; z-index: 5; font-weight: 500; color:  #040000;"> 成果</div>
+  <div id ="left" style="position: absolute; top: 240%; left: 3%; font-size: 2.0em; z-index: 5; font-weight: 500; color:  #040000;"> 加保</div>
+  <div id ="left" style="position: absolute; top: 260%; left: 3%; font-size: 2.0em; z-index: 5; font-weight: 500; color:  #040000;"> 人數</div>
+  <div id ="left" style="position: absolute; top: 262%; left: 9%; font-size: 1.7em; z-index: 5; font-weight: 500; color:  #040000;"> 4,876人</div>
 </div>
 
+<!-- 右欄box -->
+<div class="rightbox">
+  <div class="first"></div>
+  <div class="first_hover"></div>
+  <div class="second"></div>
+  <div class="second_hover"></div>
+  <div class="third"></div>
+  <div class="third_hover"></div>
+  <div class="fourth"></div>
+  <div class="fourth_hover"></div>
+  <div class="fifth"></div>
+  <div class="fifth_hover"></div>
+</div>
 
-
-<div id = "right1" style="position: absolute; top: 105%; right:0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-bottom: 2px solid #1E4E5D;">
- <div id ="w1" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">一 般 訊 息</div>
+<div id = "right_words">
+  <div id = "right" style="position: absolute; top: 110%; right: 4%; font-size: 1.8em; z-index: 5; font-weight: 500; color:#FFFFFF; "> 一 般 訊 息</div>
+  <div id = "right" style="position: absolute; top: 150%; right: 4%; font-size: 1.8em; z-index: 5; font-weight: 500; color:#FFFFFF; "> 活 動 訊 息</div>
+  <div id = "right" style="position: absolute; top: 188%; right: 4%; font-size: 1.8em; z-index: 5; font-weight: 500; color:#FFFFFF; "> 法 規 訊 息</div>
+  <div id = "right" style="position: absolute; top: 225%; right: 4%; font-size: 1.8em; z-index: 5; font-weight: 500; color:#FFFFFF; "> 友 校 訊 息</div>
+  <div id = "right" style="position: absolute; top: 265%; right: 4%; font-size: 1.8em; z-index: 5; font-weight: 500; color:#FFFFFF; "> 業 務 訊 息</div>
 </div>
-<div id ="rbox1"> h </div>
-<div id = "right2" style="position: absolute; top: 142%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
- <div id ="w2" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">活 動 訊 息</div>
-</div>
-<div id ="rbox2"> he </div>
-<div id = "right3" style="position: absolute; top: 178%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
- <div id ="w3" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">法 規 訊 息</div>
-</div>
-<div id ="rbox3"> hel </div>
-<div id = "right4" style="position: absolute; top: 214%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
-  <div id ="w4" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">友 校 訊 息</div>
-</div>
-<div id ="rbox4"> hell </div>
-<div id = "right5" style="position: absolute; top: 251%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-top: 2px solid #1E4E5D;">
-  <div id ="w5" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">業 務 訊 息</div>
-</div>
-<div id ="rbox5"> hello </div>
   
 
 <div class="line2"></div>
