@@ -17,6 +17,7 @@
 <script src="<?php bloginfo('template_url'); ?>/bootstrap/js/bootstrap.min.js"></script>
 
 <link href="<?php bloginfo('template_url'); ?>/css/homepage.css" rel="stylesheet">
+<script src="<?php bloginfo('template_url'); ?>/js/homepage.js"></script>
 
   <style type="text/css"></style>
 </head>
@@ -34,38 +35,68 @@
 
     
     
-
+<div class="top" id="top_1">
   <div id="nav1">
     <div id="navid1">關於本室</div>
   </div>
+  <div class="navbox1">   <!-- hover出梯形一 -->
+    <div id="navboxw1">可 查 閱 本 室 簡 介 、 本<br>室 位 置 、 主 任 簡 介 、<br>本 室 願 景 、 組 織 架<br>構 、 人 員 職 掌 及 工 作<br>成 果 等 資 訊</div>
+  </div>
+  <div class="navbox1_2">   <!-- hover出梯形二 -->
+    <div id="navboxw1_2">本 室 簡 介<br>本 室 位 置<br>人 員 職 掌<br>本 室 願 景<br>工 作 成 果</div>
+  </div>
+</div>
+<div class="top" id="top_2">
   <div id="nav2">
     <div id="navid2">訊息公告</div>
   </div>
+  <div class="navbox2"></div>
+  <div class="navbox2_2"></div>
+</div>
+<div class="top" id="top_3">
   <div id="nav3">
     <div id="navid3">法令&表格</div>
   </div>
+  <div class="navbox3"></div>
+  <div class="navbox3_2"></div>
+</div>
+<div class="top" id="top_4">
   <div id="nav4">
     <div id="navid4_1">人事業務標準</div>
     <div id="navid4_2">作業流程</div>
   </div>
+  <div class="navbox4"></div>
+  <div class="navbox4_2"></div>
+</div>
+<div class="top" id="top_5">
   <div id="nav5">
     <div id="navid5_1">公務員廉政</div>
     <div id="navid5_2">倫理規範</div>
   </div>
+  <div class="navbox5"></div>
+  <div class="navbox5_2"></div>
+</div>
+<div class="top" id="top_6">
   <div id="nav6">
     <div id="navid6">出勤卡鐘位置</div>
   </div>
+  <div class="navbox6"></div>
+  <div class="navbox6_2"></div>
+</div>
+<div class="top" id="top_7">
   <div id="nav7">
     <div id="navid7">留言版</div>
   </div>
-
+  <div class="navbox7"></div>
+  <div class="navbox7_2"></div>
+</div>
 <div class="line"></div>
 
   <img src="<?php bloginfo('template_url'); ?>/image/picture.jpg" alt="background" width="100%" height="375" style="position: relative; top: 9.5em; z-index: 0; height: auto; width: 100%;">
 <!-- 左欄box -->
-<div class="one"></div>
-<div class="two"></div>
-<div class="three"></div>
+<div class="one"><div class="one_word"> 105年度人事業務績效考核<br>第一組-第二名</div></div>
+<div class="two"><div class="two_word"> 105年度人事業務績效考核<br>第一組-第二名</div></div>
+<div class="three"><div class="three_word"> 本校106年八月份公勞保人數4,876人<br>(職員244人、教師1,267人、駐衛警15人、聘僱人員及其他人員3,237人、技工友...<br></div></div>
 <!-- 左欄文字 -->
 <div id="left_words">
   <div id ="left" style="position: absolute; top: 110%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 動態</div>
@@ -74,7 +105,7 @@
   <div id ="left" style="position: absolute; top: 195%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 成果</div>
   <div id ="left" style="position: absolute; top: 240%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 加保</div>
   <div id ="left" style="position: absolute; top: 260%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 人數</div>
-  <div id ="left" style="position: absolute; top: 262%; left: 9%; font-size: 1.7em; z-index: 8; font-weight: 500; color:  #040000;"> 4,876人</div>
+  <div id ="left7" style="position: absolute; top: 262%; left: 9%; font-size: 1.7em; z-index: 8; font-weight: 500; color:  #040000; display: block;"> 4,876人</div>
 </div>
 
 

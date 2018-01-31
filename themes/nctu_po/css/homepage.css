@@ -19,13 +19,17 @@
       z-index: 3;
 
     }
+/*navbar 平行四邊形&字*/
 #nav1{
   width: 10%;
   height: 33%;
   left: 10%;
-  top: 10em;
+  top: 10.5em;
   position: absolute;
-  background-color: #F4A22C;
+  /*background-color: #F4A22C;*/
+  -ms-transform: skewX(-15deg); /* IE 9 */
+  -webkit-transform: skewX(-15deg); /* Safari */
+  transform: skewX(-15deg); /* Standard syntax */
 }  
 #navid1{
   font-size: 1.4em;
@@ -39,9 +43,12 @@
   width: 10%;
   height: 33%;
   left: 21%;
-  top: 10em;
+  top: 10.5em;
   position: absolute;
-  background-color: #F4A22C;
+  /*background-color: #F4A22C;*/
+  -ms-transform: skewX(-15deg); /* IE 9 */
+  -webkit-transform: skewX(-15deg); /* Safari */
+  transform: skewX(-15deg); /* Standard syntax */
 }  
 #navid2{
   font-size: 1.4em;
@@ -55,9 +62,12 @@
   width: 12%;
   height: 33%;
   left: 32%;
-  top: 10em;
+  top: 10.5em;
   position: absolute;
-  background-color: #F4A22C;
+  /*background-color: #F4A22C;*/
+  -ms-transform: skewX(-15deg); /* IE 9 */
+  -webkit-transform: skewX(-15deg); /* Safari */
+  transform: skewX(-15deg); /* Standard syntax */
 }  
 #navid3{
   font-size: 1.4em;
@@ -71,9 +81,12 @@
   width: 12%;
   height: 33%;
   left: 45%;
-  top: 10em;
+  top: 10.5em;
   position: absolute;
-  background-color: #F4A22C;
+  /*background-color: #F4A22C;*/
+  -ms-transform: skewX(-15deg); /* IE 9 */
+  -webkit-transform: skewX(-15deg); /* Safari */
+  transform: skewX(-15deg); /* Standard syntax */
 }  
 #navid4_1{
   font-size: 1.4em;
@@ -95,9 +108,12 @@
   width: 12%;
   height: 33%;
   left: 58%;
-  top: 10em;
+  top: 10.5em;
   position: absolute;
-  background-color: #F4A22C;
+  /*background-color: #F4A22C;*/
+  -ms-transform: skewX(-15deg); /* IE 9 */
+  -webkit-transform: skewX(-15deg); /* Safari */
+  transform: skewX(-15deg); /* Standard syntax */
 }  
 #navid5_1{
   font-size: 1.4em;
@@ -119,9 +135,12 @@
   width: 12%;
   height: 33%;
   left: 71%;
-  top: 10em;
+  top: 10.5em;
   position: absolute;
-  background-color: #F4A22C;
+  /*background-color: #F4A22C;*/
+  -ms-transform: skewX(-15deg); /* IE 9 */
+  -webkit-transform: skewX(-15deg); /* Safari */
+  transform: skewX(-15deg); /* Standard syntax */
 }  
 #navid6{
   font-size: 1.4em;
@@ -135,9 +154,12 @@
   width: 10%;
   height: 33%;
   left: 84%;
-  top: 10em;
+  top: 10.5em;
   position: absolute;
-  background-color: #F4A22C;
+  /*background-color: #F4A22C;*/
+  -ms-transform: skewX(-15deg); /* IE 9 */
+  -webkit-transform: skewX(-15deg); /* Safari */
+  transform: skewX(-15deg); /* Standard syntax */
 }  
 #navid7{
   font-size: 1.4em;
@@ -174,7 +196,7 @@
       height: 15%;
     }
 /*左box transition*/
-    .one  {
+    .one {
       width: 20%;
       height: 63.5%;
       bottom: 17.2em;
@@ -185,16 +207,25 @@
       -o-transition: width 2s;
       transition: width 2s;
       position: relative;
-      z-index: 7;
-      
+      z-index: 7; 
+    }
+    .one_word{
+      color: #040000;
+      position: absolute;
+      left: 35%;
+      top: 10%;
+      font-size: 1.7em;
+      display: none;
     }
 
-    .one:hover {
+    .one:hover{
       width: 55%;
       z-index: 7;
       transform-origin: left top;
       transform: skewX(-15deg);
-      
+    }
+    .one:hover .one_word{
+      display: block;
     }
 
     .two {
@@ -210,14 +241,23 @@
       position: relative;
       z-index: 7;
     }
-
+    .two_word{
+      color: #040000;
+      position: absolute;
+      left: 35%;
+      top: 10%;
+      font-size: 1.7em;
+      display: none;
+    }
     .two:hover {
       width: 55%;
       z-index: 7;
       transform-origin: left top;
       transform: skewX(-15deg);
     }
-
+    .two:hover .two_word{
+      display: block;
+    }
     .three {
       width: 20%;
       height: 63.5%;
@@ -231,14 +271,26 @@
       position: relative;
       z-index: 7;
     }
-
+    .three_word{
+      color: #040000;
+      position: absolute;
+      left: 35%;
+      top: 10%;
+      font-size: 1.7em;
+      display: none;
+    }
     .three:hover {
       width: 55%;
       z-index: 7;
       transform-origin: left top;
       transform: skewX(-15deg);
     }
-
+    .three:hover .three_word{
+      display: block;
+    }
+    .three:hover+#left7{
+      display: none;
+    }
 /*右欄BOX hover*/
 #rbox1{
   background-color: black;
@@ -463,33 +515,230 @@ img.01{
   font-weight: 500;
   line-height: 1.0em;
 }
+/*navbar hover 出2個直角梯形外面一大包*/
+/*.top{
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+}*/
 
 /*關於本室，訊息公告.....hover後橘色效果*/
-li.a:hover,#nav1:hover{
+#nav1:hover{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav1:hover #navid1{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+
+#nav2:hover{
   background-color: #F4A22C;
   color: #FFFFFF;
 }
-li.b:hover,#nav2:hover{
+#nav2:hover #navid2{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav3:hover{
   background-color: #F4A22C;
   color: #FFFFFF;
 }
-li.c:hover,#nav3:hover{
+#nav3:hover #navid3{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav4:hover{
   background-color: #F4A22C;
   color: #FFFFFF;
 }
-li.d:hover,#nav4:hover{
+#nav4:hover #navid4_1{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav4:hover #navid4_2{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav5:hover{
   background-color: #F4A22C;
   color: #FFFFFF;
 }
-li.e:hover,#nav5:hover{
+#nav5:hover #navid5_1{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav5:hover #navid5_2{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav6:hover{
   background-color: #F4A22C;
   color: #FFFFFF;
 }
-li.f:hover,#nav6:hover{
+#nav6:hover #navid6{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav7:hover{
   background-color: #F4A22C;
   color: #FFFFFF;
 }
-li.g:hover,#nav7:hover{
+#nav7:hover #navid7{
   background-color: #F4A22C;
+  color: #F2F2F2;
+}
+/*hover 2個直角梯形*/
+.navbox1{
+  width:30%;height:0;margin:10.4% auto; padding: 0;
+  border-right:80px solid transparent;
+  border-top:373px solid #F4A22C;  
+  z-index: 10;
+  position: absolute;
+  opacity: 0.8;
+  display: none;
+}
+.navbox1_2{
+  width:75%;height:0;margin:10.5% auto; padding: 0;
+  border-left:80px solid transparent;
+  border-bottom:372px solid #144959;  
+  z-index: 10;
+  position: absolute;
+  /*opacity: 0.8;*/
+  right: 0;
+  display: none;
+}
+.navbox2{
+  width:30%;height:0;margin:10.4% auto; padding: 0;
+  border-right:80px solid transparent;
+  border-top:373px solid #F4A22C;  
+  z-index: 10;
+  position: absolute;
+  opacity: 0.8;
+  display: none;
+}
+.navbox2_2{
+  width:75%;height:0;margin:10.5% auto; padding: 0;
+  border-left:80px solid transparent;
+  border-bottom:372px solid #144959;  
+  z-index: 10;
+  position: absolute;
+  /*opacity: 0.8;*/
+  right: 0;
+  display: none;
+}
+.navbox3{
+  width:30%;height:0;margin:10.4% auto; padding: 0;
+  border-right:80px solid transparent;
+  border-top:373px solid #F4A22C;  
+  z-index: 10;
+  position: absolute;
+  opacity: 0.8;
+  display: none;
+}
+.navbox3_2{
+  width:75%;height:0;margin:10.5% auto; padding: 0;
+  border-left:80px solid transparent;
+  border-bottom:372px solid #144959;  
+  z-index: 10;
+  position: absolute;
+  /*opacity: 0.8;*/
+  right: 0;
+  display: none;
+}
+.navbox4{
+  width:30%;height:0;margin:10.4% auto; padding: 0;
+  border-right:80px solid transparent;
+  border-top:373px solid #F4A22C;  
+  z-index: 10;
+  position: absolute;
+  opacity: 0.8;
+  display: none;
+}
+.navbox4_2{
+  width:75%;height:0;margin:10.5% auto; padding: 0;
+  border-left:80px solid transparent;
+  border-bottom:372px solid #144959;  
+  z-index: 10;
+  position: absolute;
+  /*opacity: 0.8;*/
+  right: 0;
+  display: none;
+}
+.navbox5{
+  width:30%;height:0;margin:10.4% auto; padding: 0;
+  border-right:80px solid transparent;
+  border-top:373px solid #F4A22C;  
+  z-index: 10;
+  position: absolute;
+  opacity: 0.8;
+  display: none;
+}
+.navbox5_2{
+  width:75%;height:0;margin:10.5% auto; padding: 0;
+  border-left:80px solid transparent;
+  border-bottom:372px solid #144959;  
+  z-index: 10;
+  position: absolute;
+  /*opacity: 0.8;*/
+  right: 0;
+  display: none;
+}
+.navbox6{
+  width:30%;height:0;margin:10.4% auto; padding: 0;
+  border-right:80px solid transparent;
+  border-top:373px solid #F4A22C;  
+  z-index: 10;
+  position: absolute;
+  opacity: 0.8;
+  display: none;
+}
+.navbox6_2{
+  width:75%;height:0;margin:10.5% auto; padding: 0;
+  border-left:80px solid transparent;
+  border-bottom:372px solid #144959;  
+  z-index: 10;
+  position: absolute;
+  /*opacity: 0.8;*/
+  right: 0;
+  display: none;
+}
+.navbox7{
+  width:30%;height:0;margin:10.4% auto; padding: 0;
+  border-right:80px solid transparent;
+  border-top:373px solid #F4A22C;  
+  z-index: 10;
+  position: absolute;
+  opacity: 0.8;
+  display: none;
+}
+.navbox7_2{
+  width:75%;height:0;margin:10.5% auto; padding: 0;
+  border-left:80px solid transparent;
+  border-bottom:372px solid #144959;  
+  z-index: 10;
+  position: absolute;
+  /*opacity: 0.8;*/
+  right: 0;
+  display: none;
+}
+/*關於本室navbox1字*/
+#navboxw1{
   color: #FFFFFF;
+  position: absolute;
+  bottom: 8em;
+  left: 3em;
+  font-size: 1.5em;
+  line-height: 32px;
+}
+#navboxw1_2{
+  color: #FFFFFF;
+  position: absolute;
+  top: 4em;
+  left: 3em;
+  font-size: 1.5em;
+  line-height: 40px;
 }
