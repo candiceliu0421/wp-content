@@ -40,10 +40,35 @@
     <div id="navid1">關於本室</div>
   </div>
   <div class="navbox1">   <!-- hover出梯形一 -->
-    <div id="navboxw1">可 查 閱 本 室 簡 介 、 本<br>室 位 置 、 主 任 簡 介 、<br>本 室 願 景 、 組 織 架<br>構 、 人 員 職 掌 及 工 作<br>成 果 等 資 訊</div>
+    <div id="navboxw1">可 查 閱 本 室 簡 介 、 本<br>室 位 置 、 主 任 簡 介 、<br>本 室 願 景 、 組 織 架<br>構 、 人 員 職 掌 及 工 作<br>成 果 等 資 訊
+    </div>
   </div>
   <div class="navbox1_2">   <!-- hover出梯形二 -->
-    <div id="navboxw1_2">本 室 簡 介<br>本 室 位 置<br>人 員 職 掌<br>本 室 願 景<br>工 作 成 果</div>
+    <div id="navboxw1_2">
+      <a href="<?php echo site_url(); ?>/intro/" style="color: #FFFFFF;"><div id="navboxw1_2_1">本 室 簡 介<br></div></a>
+      <div id="navboxw1_2_2">本 室 位 置<br></div>
+      <div id="navboxw1_2_3">人 員 職 掌<br></div>
+      <div id="navboxw1_2_4">本 室 願 景<br></div>
+      <div id="navboxw1_2_5">工 作 成 果</div>
+    </div>
+  </div>
+  <div class="navbox1_3">   <!-- 點擊展開出梯形三 -->
+    <div id="navboxw1_3">
+      <!-- <div id="navboxw1_3">本 室 簡 介<br></div>
+      <div id="navboxw1_4">本 室 位 置<br></div>
+      <div id="navboxw1_5">人 員 職 掌<br></div>
+      <div id="navboxw1_6">本 室 願 景<br></div>
+      <div id="navboxw1_7">工 作 成 果</div> -->
+    </div>
+  </div>
+  <div class="navbox1_4">   <!-- 點擊展開出梯形四 -->
+    <div id="navboxw1_4">
+      <!-- <div id="navboxw1_3">本 室 簡 介<br></div>
+      <div id="navboxw1_4">本 室 位 置<br></div>
+      <div id="navboxw1_5">人 員 職 掌<br></div>
+      <div id="navboxw1_6">本 室 願 景<br></div>
+      <div id="navboxw1_7">工 作 成 果</div> -->
+    </div>
   </div>
 </div>
 <div class="top" id="top_2">
@@ -91,8 +116,9 @@
   <div class="navbox7_2"></div>
 </div>
 <div class="line"></div>
-
-  <img src="<?php bloginfo('template_url'); ?>/image/picture.jpg" alt="background" width="100%" height="375" style="position: relative; top: 9.5em; z-index: 0; height: auto; width: 100%;">
+<div class="bgd">
+  <img src="<?php bloginfo('template_url'); ?>/image/picture.jpg" alt="background" width="800" height="355" style="position: absolute; top: 14.7em; z-index: 0; width: 100%; height: auto;">
+</div>
 <!-- 左欄box -->
 <div class="one"><div class="one_word"> 105年度人事業務績效考核<br>第一組-第二名</div></div>
 <div class="two"><div class="two_word"> 105年度人事業務績效考核<br>第一組-第二名</div></div>
@@ -110,23 +136,23 @@
 
 
 
-<div id = "right1" style="position: absolute; top: 105%; right:0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-bottom: 2px solid #1E4E5D;">
+<div id = "right1" style="position: absolute; top: 102.5%; right:0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 2.9em; border-bottom: 2px solid #1E4E5D;">
  <div id ="w1" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">一 般 訊 息</div>
 </div>
 <div id ="rbox1"> h </div>
-<div id = "right2" style="position: absolute; top: 142%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
+<div id = "right2" style="position: absolute; top: 139.3%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 2.9em; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
  <div id ="w2" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">活 動 訊 息</div>
 </div>
 <div id ="rbox2"> he </div>
-<div id = "right3" style="position: absolute; top: 178%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
+<div id = "right3" style="position: absolute; top: 175.5%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
  <div id ="w3" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">法 規 訊 息</div>
 </div>
 <div id ="rbox3"> hel </div>
-<div id = "right4" style="position: absolute; top: 214%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
+<div id = "right4" style="position: absolute; top: 213.3%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
   <div id ="w4" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">友 校 訊 息</div>
 </div>
 <div id ="rbox4"> hell </div>
-<div id = "right5" style="position: absolute; top: 251%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-top: 2px solid #1E4E5D;">
+<div id = "right5" style="position: absolute; top: 250%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 2.9em; border-top: 2px solid #1E4E5D;">
   <div id ="w5" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">業 務 訊 息</div>
 </div>
 <div id ="rbox5"> hello </div>
@@ -183,23 +209,6 @@
     <p style="top: 77%; left: 20%; position: absolute;">含自強康樂委員會</p>
 </div>
 
-<!-- 下方圖示字 -->
-<!-- <div id="down_words">
-  <div id = "down" style="position: absolute; top: 355%; left: 5.5%; font-size: 1.5em; z-index: 5; font-weight: 500; color:#040000; "> 適用勞基法</div>
-  <div id = "down" style="position: absolute; top: 367%; left: 5.5%; font-size: 1.5em; z-index: 5; font-weight: 500; color:#040000; "> 專區</div>
-  <div id = "down" style="position: absolute; top: 355%; left: 19.0%; font-size: 1.5em; z-index: 5; font-weight: 500; color:#040000; "> 外籍教職員</div>
-  <div id = "down" style="position: absolute; top: 367%; left: 19.0%; font-size: 1.5em; z-index: 5; font-weight: 500; color:#040000; "> 專區</div>
-  <div id = "down" style="position: absolute; top: 355%; left: 33.5%; font-size: 1.5em; z-index: 5; font-weight: 500; color:#040000; "> 兼任教師</div>
-  <div id = "down" style="position: absolute; top: 367%; left: 33.5%; font-size: 1.5em; z-index: 5; font-weight: 500; color:#040000; "> 專區</div>
-  <div id = "down" style="position: absolute; top: 355%; left: 47.5%; font-size: 1.5em; z-index: 5; font-weight: 500; color:#040000; "> 學習與勞動</div>
-  <div id = "down" style="position: absolute; top: 367%; left: 47.5%; font-size: 1.5em; z-index: 5; font-weight: 500; color:#040000; "> 權益專區</div>
-  <div id = "down" style="position: absolute; top: 355%; left: 61.5%; font-size: 1.5em; z-index: 5; font-weight: 500; color:#040000; "> 教師升等</div>
-  <div id = "down" style="position: absolute; top: 367%; left: 61.5%; font-size: 1.5em; z-index: 5; font-weight: 500; color:#040000; "> 專區</div>
-  <div id = "down" style="position: absolute; top: 355%; left: 74.5%; font-size: 1.5em; z-index: 5; font-weight: 500; color:#040000; "> 退休專區</div>
-  <div id = "down" style="position: absolute; top: 355%; left: 87.5%; font-size: 1.5em; z-index: 5; font-weight: 500; color:#040000; "> 福利專區</div>
-  <div id = "down" style="position: absolute; top: 367%; left: 87.5%; font-size: 1.0em; z-index: 5; font-weight: 500; color:#040000; "> 含自強康樂委員會</div>
-
-</div> -->
 
 <div class="line3"></div>
 

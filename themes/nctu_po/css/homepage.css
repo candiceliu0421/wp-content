@@ -7,7 +7,7 @@
       position: fixed;
       top: 0;
       width: 100%;
-      height: 25%;
+      height: 25.5%;
     }
     .triangle {  
       position: fixed;
@@ -198,8 +198,9 @@
 /*左box transition*/
     .one {
       width: 20%;
-      height: 63.5%;
-      bottom: 17.2em;
+      height: 62%;
+      /*bottom: 17.2em;*/
+      top: 9.3em;
       background-color:#AAC0CA;   
       opacity: 0.9;
       -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
@@ -230,8 +231,9 @@
 
     .two {
       width: 20%;
-      height: 63.5%;
-      bottom: 17.5em;
+      height: 62%;
+      /*bottom: 17.5em;*/
+      top: 9.2em;
       background-color:#88B0AD;   
       opacity: 0.9;
       -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
@@ -260,8 +262,9 @@
     }
     .three {
       width: 20%;
-      height: 63.5%;
-      bottom: 17.7em;
+      height: 62%;
+      /*bottom: 1em;*/
+      top: 9.1em;
       background-color:#D8C59A;   
       opacity: 0.9;
       -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
@@ -298,7 +301,7 @@
   display: none;
   position: absolute;
   padding: 20px;
-  top: 104%;
+  top: 102%;
   /*margin-right: 100px;*/
   left: 35em;
   height: 50em;
@@ -315,7 +318,7 @@
   display: none;
   position: absolute;
   padding: 20px;
-  top: 104%;
+  top: 102%;
   /*margin-right: 100px;*/
   left: 35em;
   height: 50em;
@@ -332,7 +335,7 @@
   display: none;
   position: absolute;
   padding: 20px;
-  top: 104%;
+  top: 102%;
   /*margin-right: 100px;*/
   left: 35em;
   height: 50em;
@@ -349,7 +352,7 @@
   display: none;
   position: absolute;
   padding: 20px;
-  top: 104%;
+  top: 102%;
   /*margin-right: 100px;*/
   left: 35em;
   height: 50em;
@@ -366,7 +369,7 @@
   display: none;
   position: absolute;
   padding: 20px;
-  top: 104%;
+  top: 102%;
   /*margin-right: 100px;*/
   left: 35em;
   height: 50em;
@@ -591,18 +594,18 @@ img.01{
   background-color: #F4A22C;
   color: #F2F2F2;
 }
-/*hover 2個直角梯形*/
+/*hover 2個直角梯形,點擊再展開直角梯形*/
 .navbox1{
-  width:30%;height:0;margin:10.4% auto; padding: 0;
-  border-right:80px solid transparent;
-  border-top:373px solid #F4A22C;  
+  width:29%;height:0;margin:10.2% auto; padding: 0;
+  border-right:81px solid transparent;
+  border-top:375px solid #F4A22C;  
   z-index: 10;
   position: absolute;
   opacity: 0.8;
   display: none;
 }
 .navbox1_2{
-  width:75%;height:0;margin:10.5% auto; padding: 0;
+  width:75%;height:0;margin:10.2% auto; padding: 0;
   border-left:80px solid transparent;
   border-bottom:372px solid #144959;  
   z-index: 10;
@@ -611,8 +614,10 @@ img.01{
   right: 0;
   display: none;
 }
+
+
 .navbox2{
-  width:30%;height:0;margin:10.4% auto; padding: 0;
+  width:30%;height:0;margin:10.2% auto; padding: 0;
   border-right:80px solid transparent;
   border-top:373px solid #F4A22C;  
   z-index: 10;
@@ -621,7 +626,7 @@ img.01{
   display: none;
 }
 .navbox2_2{
-  width:75%;height:0;margin:10.5% auto; padding: 0;
+  width:75%;height:0;margin:10.2% auto; padding: 0;
   border-left:80px solid transparent;
   border-bottom:372px solid #144959;  
   z-index: 10;
@@ -631,7 +636,7 @@ img.01{
   display: none;
 }
 .navbox3{
-  width:30%;height:0;margin:10.4% auto; padding: 0;
+  width:30%;height:0;margin:10.2% auto; padding: 0;
   border-right:80px solid transparent;
   border-top:373px solid #F4A22C;  
   z-index: 10;
@@ -640,7 +645,7 @@ img.01{
   display: none;
 }
 .navbox3_2{
-  width:75%;height:0;margin:10.5% auto; padding: 0;
+  width:75%;height:0;margin:10.2% auto; padding: 0;
   border-left:80px solid transparent;
   border-bottom:372px solid #144959;  
   z-index: 10;
@@ -650,7 +655,7 @@ img.01{
   display: none;
 }
 .navbox4{
-  width:30%;height:0;margin:10.4% auto; padding: 0;
+  width:30%;height:0;margin:10.2% auto; padding: 0;
   border-right:80px solid transparent;
   border-top:373px solid #F4A22C;  
   z-index: 10;
@@ -659,7 +664,7 @@ img.01{
   display: none;
 }
 .navbox4_2{
-  width:75%;height:0;margin:10.5% auto; padding: 0;
+  width:75%;height:0;margin:10.2% auto; padding: 0;
   border-left:80px solid transparent;
   border-bottom:372px solid #144959;  
   z-index: 10;
@@ -669,7 +674,7 @@ img.01{
   display: none;
 }
 .navbox5{
-  width:30%;height:0;margin:10.4% auto; padding: 0;
+  width:30%;height:0;margin:10.2% auto; padding: 0;
   border-right:80px solid transparent;
   border-top:373px solid #F4A22C;  
   z-index: 10;
@@ -678,7 +683,7 @@ img.01{
   display: none;
 }
 .navbox5_2{
-  width:75%;height:0;margin:10.5% auto; padding: 0;
+  width:75%;height:0;margin:10.2% auto; padding: 0;
   border-left:80px solid transparent;
   border-bottom:372px solid #144959;  
   z-index: 10;
@@ -688,7 +693,7 @@ img.01{
   display: none;
 }
 .navbox6{
-  width:30%;height:0;margin:10.4% auto; padding: 0;
+  width:30%;height:0;margin:10.2% auto; padding: 0;
   border-right:80px solid transparent;
   border-top:373px solid #F4A22C;  
   z-index: 10;
@@ -697,7 +702,7 @@ img.01{
   display: none;
 }
 .navbox6_2{
-  width:75%;height:0;margin:10.5% auto; padding: 0;
+  width:75%;height:0;margin:10.2% auto; padding: 0;
   border-left:80px solid transparent;
   border-bottom:372px solid #144959;  
   z-index: 10;
@@ -707,7 +712,7 @@ img.01{
   display: none;
 }
 .navbox7{
-  width:30%;height:0;margin:10.4% auto; padding: 0;
+  width:30%;height:0;margin:10.2% auto; padding: 0;
   border-right:80px solid transparent;
   border-top:373px solid #F4A22C;  
   z-index: 10;
@@ -716,7 +721,7 @@ img.01{
   display: none;
 }
 .navbox7_2{
-  width:75%;height:0;margin:10.5% auto; padding: 0;
+  width:75%;height:0;margin:10.2% auto; padding: 0;
   border-left:80px solid transparent;
   border-bottom:372px solid #144959;  
   z-index: 10;
@@ -730,7 +735,7 @@ img.01{
   color: #FFFFFF;
   position: absolute;
   bottom: 8em;
-  left: 3em;
+  left: 2.8em;
   font-size: 1.5em;
   line-height: 32px;
 }
