@@ -41,12 +41,19 @@
   </div>
   <div class="navbox1_3">   <!-- 點擊展開出左大梯形 -->
     <div id="navboxw1_3">
-      
+      可 查 閱 本 室 簡 介 、 本<br>室 位 置 、 主 任 簡 介 、<br>本 室 願 景 、 組 織 架<br>構 、 人 員 職 掌 及 工 作<br>成 果 等 資 訊
     </div>
+      <a href="<?php echo site_url(); ?>/intro/"><div id="navboxw1_3_1">本 室 簡 介<br></div></a>
+      <div id="navboxw1_3_2">本 室 位 置<br></div>
+      <div id="navboxw1_3_3">人 員 職 掌<br></div>
+      <div id="navboxw1_3_4">本 室 願 景<br></div>
+      <div id="navboxw1_3_5">工 作 成 果</div>
   </div>
   <div class="navbox1_4">   <!-- 點擊展開出右大梯形 -->
-    <div id="navboxw1_4">
-    </div>
+    <div id="circle1"><div id="cw1">簡介</div></div>
+    <div id="circle2"><div id="cw2">現況</div></div>
+    <div id="circle3"><div id="cw3">組織</div></div>
+    <div id="circle4"><div id="cw4">目標</div></div>
   </div>
 </div>
 <div class="top" id="top_2">

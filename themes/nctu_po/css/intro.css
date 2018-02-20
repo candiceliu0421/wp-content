@@ -189,6 +189,49 @@
   opacity: 0.8;
   /*display: none;*/
 }
+#navboxw1_3{
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 20em;
+  left: 2.8em;
+  font-size: 1.2em;
+  line-height: 32px;
+}
+#navboxw1_3_1{
+  color: #244958;
+  position: absolute;
+  bottom: 14em;
+  left: 2.8em;
+  font-size: 1.3em;
+}
+#navboxw1_3_2{
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 12em;
+  left: 2.8em;
+  font-size: 1.3em;
+}
+#navboxw1_3_3{
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 10em;
+  left: 2.8em;
+  font-size: 1.3em;
+}
+#navboxw1_3_4{
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 8em;
+  left: 2.8em;
+  font-size: 1.3em;
+}
+#navboxw1_3_5{
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 6em;
+  left: 2.8em;
+  font-size: 1.3em;
+}
 .navbox1_4{
   width:79%;height:0;margin:10.2% auto; padding: 0; /*改寬度，改高低位置*/
   border-left:77px solid transparent;  /*改傾斜度*/
@@ -199,7 +242,74 @@
   right: 0;
   /*display: none;*/
 }
-
+#circle1{ 
+  width: 120px; 
+  height: 120px; 
+  background-color: #144959; /* Can be set to transparent */ 
+  border: 2px #FFFFFF solid; 
+  -webkit-border-radius: 100px; 
+  position: absolute;
+  top: 3em;
+  left: 1.5em;
+} 
+#cw1{
+  color: #FFFFFF;
+  font-size: 2.3em;
+  position: absolute;
+  left: 0.8em;
+  top: 0.9em;
+}
+#circle2{ 
+  width: 120px; 
+  height: 120px; 
+  background-color: #144959; /* Can be set to transparent */ 
+  border: 2px #FFFFFF solid; 
+  -webkit-border-radius: 100px; 
+  position: absolute;
+  top: 3em;
+  left: 18em;
+} 
+#cw2{
+  color: #FFFFFF;
+  font-size: 2.3em;
+  position: absolute;
+  left: 0.8em;
+  top: 0.9em;
+}
+#circle3{ 
+  width: 120px; 
+  height: 120px; 
+  background-color: #144959; /* Can be set to transparent */ 
+  border: 2px #FFFFFF solid; 
+  -webkit-border-radius: 100px; 
+  position: absolute;
+  top: 3em;
+  left: 35em;
+} 
+#cw3{
+  color: #FFFFFF;
+  font-size: 2.3em;
+  position: absolute;
+  left: 0.8em;
+  top: 0.9em;
+}
+#circle4{ 
+  width: 120px; 
+  height: 120px; 
+  background-color: #144959; /* Can be set to transparent */ 
+  border: 2px #FFFFFF solid; 
+  -webkit-border-radius: 100px;
+  position: absolute;
+  top: 3em; 
+  right: 5em;
+} 
+#cw4{
+  color: #FFFFFF;
+  font-size: 2.3em;
+  position: absolute;
+  left: 0.8em;
+  top: 0.9em;
+}
 .navbox2{
   width:30%;height:0;margin:10.2% auto; padding: 0;
   border-right:80px solid transparent;
