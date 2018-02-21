@@ -115,48 +115,49 @@
   <div class="navbox7"></div>
   <div class="navbox7_2"></div>
 </div>
-<div class="line"></div>
-<div class="bgd">
-  <img src="<?php bloginfo('template_url'); ?>/image/picture.jpg" alt="background" width="800" height="355" style="position: absolute; top: 14.7em; z-index: 0; width: 100%; height: auto;">
+<div class="hp-img_wrapper">
+  <div class="bgd" style="background-image: url(<?php bloginfo('template_url'); ?>/image/picture.jpg");">
+  </div>
 </div>
+
 <!-- 左欄box -->
 <div class="one"><div class="one_word"> 105年度人事業務績效考核<br>第一組-第二名</div></div>
 <div class="two"><div class="two_word"> 105年度人事業務績效考核<br>第一組-第二名</div></div>
 <div class="three"><div class="three_word"> 本校106年八月份公勞保人數4,876人<br>(職員244人、教師1,267人、駐衛警15人、聘僱人員及其他人員3,237人、技工友...<br></div></div>
 <!-- 左欄文字 -->
 <div id="left_words">
-  <div id ="left" style="position: absolute; top: 110%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 動態</div>
-  <div id ="left" style="position: absolute; top: 130%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 行事曆</div>
-  <div id ="left" style="position: absolute; top: 175%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 工作</div>
-  <div id ="left" style="position: absolute; top: 195%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 成果</div>
-  <div id ="left" style="position: absolute; top: 240%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 加保</div>
-  <div id ="left" style="position: absolute; top: 260%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 人數</div>
-  <div id ="left7" style="position: absolute; top: 262%; left: 9%; font-size: 1.7em; z-index: 8; font-weight: 500; color:  #040000; display: block;"> 4,876人</div>
+  <div id ="left" style="position: absolute; top: 105%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 動態</div>
+  <div id ="left" style="position: absolute; top: 125%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 行事曆</div>
+  <div id ="left" style="position: absolute; top: 155%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 工作</div>
+  <div id ="left" style="position: absolute; top: 175%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 成果</div>
+  <div id ="left" style="position: absolute; top: 200%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 加保</div>
+  <div id ="left" style="position: absolute; top: 220%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 人數</div>
+  <div id ="left7" style="position: absolute; top: 220%; left: 9%; font-size: 1.7em; z-index: 8; font-weight: 500; color:  #040000; display: block;"> 4,876人</div>
 </div>
 
 
 
-<div id = "right1" style="position: absolute; top: 102.5%; right:0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 2.9em; border-bottom: 2px solid #1E4E5D;">
+<div id = "right1" style="position: absolute; top: 101%; right:0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 28.5%; border-bottom: 2px solid #1E4E5D;">
  <div id ="w1" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">一 般 訊 息</div>
 </div>
 <div id ="rbox1"> h </div>
-<div id = "right2" style="position: absolute; top: 139.3%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 2.9em; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
+<div id = "right2" style="position: absolute; top: 129%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 28.5%; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
  <div id ="w2" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">活 動 訊 息</div>
 </div>
 <div id ="rbox2"> he </div>
-<div id = "right3" style="position: absolute; top: 175.5%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
+<div id = "right3" style="position: absolute; top: 157%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 28.5%; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
  <div id ="w3" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">法 規 訊 息</div>
 </div>
 <div id ="rbox3"> hel </div>
-<div id = "right4" style="position: absolute; top: 213.3%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 3em; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
+<div id = "right4" style="position: absolute; top: 185%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 29%; border-top: 2px solid #1E4E5D;  border-bottom: 2px solid #1E4E5D;">
   <div id ="w4" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">友 校 訊 息</div>
 </div>
 <div id ="rbox4"> hell </div>
-<div id = "right5" style="position: absolute; top: 250%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 2.9em; border-top: 2px solid #1E4E5D;">
+<div id = "right5" style="position: absolute; top: 214%; right: 0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B; width: 8em; height: 28.5%; border-top: 2px solid #1E4E5D;">
   <div id ="w5" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 25%; top: 20%;">業 務 訊 息</div>
 </div>
 <div id ="rbox5"> hello </div>
-  
+</div>
 
 <div class="line2"></div>
   <!-- 下方7個圖示 -->

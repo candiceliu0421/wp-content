@@ -100,11 +100,11 @@
   <div class="navbox7"></div>
   <div class="navbox7_2"></div>
 </div>
-<div class="line"></div>
-<div class="bgd">
-  <img src="<?php bloginfo('template_url'); ?>/image/picture.jpg" alt="background" width="800" height="957" style="position: absolute; top: 14.7em; z-index: 0; width: 100%; height: 40em;">
+<div class="hp-img_wrapper">
+  <div class="bgd" style="background-image: url(<?php bloginfo('template_url'); ?>/image/picture.jpg");">
+  </div>
 </div>
-
+</div>
 <div class="footer">
   <img src="<?php bloginfo('template_url'); ?>/image/footer.png" alt="footer" width="100%" style="position: fixed; bottom: 0; left: 0;">
 </div>
