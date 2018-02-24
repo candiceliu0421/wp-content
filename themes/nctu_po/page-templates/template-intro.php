@@ -17,7 +17,7 @@
 <script src="<?php bloginfo('template_url'); ?>/bootstrap/js/bootstrap.min.js"></script>
 
 <link href="<?php bloginfo('template_url'); ?>/css/intro.css" rel="stylesheet">
-
+<script src="<?php bloginfo('template_url'); ?>/js/intro.js"></script>
 
   <style type="text/css"></style>
 </head>
@@ -50,10 +50,22 @@
       <div id="navboxw1_3_5">工 作 成 果</div>
   </div>
   <div class="navbox1_4">   <!-- 點擊展開出右大梯形 -->
-    <div id="circle1"><div id="cw1">簡介</div></div>
-    <div id="circle2"><div id="cw2">現況</div></div>
-    <div id="circle3"><div id="cw3">組織</div></div>
-    <div id="circle4"><div id="cw4">目標</div></div>
+    <div class="h1" id="h1">
+      <div class="circle1"><div id="cw1">簡介</div></div>
+      <div class="cb1">本校人事室係依據人事管理條例、大學法及本校組織規程而設置，掌理本校組<br>織編制，教職員聘(任)免、還調、敘薪、考核、獎懲、差假勤惰、訓練進<br>修、待遇、福利、保險、退休、撫卹、人事資料管理等事務。</div>
+    </div>
+    <div class="h2" id="h2">
+    <div class="circle2"><div id="cw2">現況</div></div>
+    <div class="cb2">人事室現有同仁21人，置主任1人，綜理人事業務，並分設第一組、第二組辦<br>事，各組置組長1人。</div>
+    </div>
+    <div class="h3" id="h3">
+    <div class="circle3"><div id="cw3">組織</div></div>
+    <div class="cb3">人事室現有同仁21人，置主任1人，綜理人事業務，並分設第一組、第二組辦<br>事，各組置組長1人。</div>
+    </div>
+    <div class="h4" id="h4">
+    <div class="circle4"><div id="cw4">目標</div></div>
+    <div class="cb4">本校人事服務工作的主要任務，乃依據人事法令及學校人事規章，配合校務發<br>展需要，善盡幕僚職責，支援各單位，達成校務發展目標;並維護職員同仁合<br>法權益，建立顧客導向之服務理念與和諧人際關係，以提升人事服務效能。</div>
+    </div>
   </div>
 </div>
 <div class="top" id="top_2">

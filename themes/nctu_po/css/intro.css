@@ -197,9 +197,9 @@
 
 /*關於本室兩個大梯形*/
 .navbox1_3{
-  width:25%;height:0;margin:10.2% auto; padding: 0;
+  width:25%;height:0;margin:10.3% auto; padding: 0;
   border-right:76px solid transparent;
-  border-top:564px solid #F4A22C;  
+  border-top:562px solid #F4A22C;  
   z-index: 10;
   position: absolute;
   opacity: 0.8;
@@ -249,82 +249,131 @@
   font-size: 1.3em;
 }
 .navbox1_4{
-  width:79%;height:0;margin:10.2% auto; padding: 0; /*改寬度，改高低位置*/
+  width:79%;height:0;margin:10.3% auto; padding: 0; /*改寬度，改高低位置*/
   border-left:77px solid transparent;  /*改傾斜度*/
-  border-bottom:564px solid #144959;  /*改高度*/
+  border-bottom:562px solid #144959;  /*改高度*/
   z-index: 10;
   position: absolute;
   /*opacity: 0.8;*/
   right: 0;
   /*display: none;*/
 }
-#circle1{ 
+.circle1{ 
   width: 120px; 
   height: 120px; 
   background-color: #144959; /* Can be set to transparent */ 
   border: 2px #FFFFFF solid; 
   -webkit-border-radius: 100px; 
   position: absolute;
-  top: 3em;
-  left: 1.5em;
+  top: 6vh;
+  left: 5vw;
 } 
+.circle1:hover{
+  border: 5px  #FFFFFF solid; 
+}
 #cw1{
   color: #FFFFFF;
-  font-size: 2.3em;
+  font-size: 1em;
   position: absolute;
-  left: 0.8em;
-  top: 0.9em;
+  left: 20%;
+  top: 30%;
 }
-#circle2{ 
+.cb1{
+  color: #FFFFFF;
+  position: absolute;
+  top: 28vh;
+  left: 5vw;
+  font-size: 0.5em;
+  line-height: 50px;
+  display: none;
+}
+
+.circle2{ 
   width: 120px; 
   height: 120px; 
   background-color: #144959; /* Can be set to transparent */ 
   border: 2px #FFFFFF solid; 
   -webkit-border-radius: 100px; 
   position: absolute;
-  top: 3em;
-  left: 18em;
+  top: 6vh;
+  left: 23vw;
 } 
+.circle2:hover{
+  border: 5px  #FFFFFF solid; 
+}
 #cw2{
   color: #FFFFFF;
-  font-size: 2.3em;
+  font-size: 1.2em;
   position: absolute;
-  left: 0.8em;
-  top: 0.9em;
+  left: 20%;
+  top: 30%;
 }
-#circle3{ 
+.cb2{
+  color: #FFFFFF;
+  position: absolute;
+  top: 28vh;
+  left: 5vw;
+  font-size: 0.6em;
+  line-height: 50px;
+  display: none;
+}
+.circle3{ 
   width: 120px; 
   height: 120px; 
   background-color: #144959; /* Can be set to transparent */ 
   border: 2px #FFFFFF solid; 
   -webkit-border-radius: 100px; 
   position: absolute;
-  top: 3em;
-  left: 35em;
+  top: 6vh;
+  left: 42vw;
 } 
+.circle3:hover{
+  border: 5px  #FFFFFF solid; 
+}
 #cw3{
   color: #FFFFFF;
-  font-size: 2.3em;
+  font-size: 1.5em;
   position: absolute;
-  left: 0.8em;
-  top: 0.9em;
+  left: 20%;
+  top: 30%;
 }
-#circle4{ 
+.cb3{
+  color: #FFFFFF;
+  position: absolute;
+  top: 28vh;
+  left: 5vw;
+  font-size: 0.7em;
+  line-height: 50px;
+  display: none;
+}
+.circle4{ 
   width: 120px; 
   height: 120px; 
   background-color: #144959; /* Can be set to transparent */ 
   border: 2px #FFFFFF solid; 
   -webkit-border-radius: 100px;
   position: absolute;
-  top: 3em; 
-  right: 5em;
+  top: 6vh;
+  left: 60vw;
 } 
+.circle4:hover{
+  border: 5px  #FFFFFF solid; 
+}
 #cw4{
   color: #FFFFFF;
-  font-size: 2.3em;
+  font-size: 1.8em;
   position: absolute;
-  left: 0.8em;
-  top: 0.9em;
+  left: 20%;
+  top: 30%;
+}
+.cb4{
+  color: #FFFFFF;
+  position: absolute;
+  top: 28vh;
+  left: 5vw;
+  font-size: 0.9em;
+  line-height: 50px;
+  display: none;
 }
 .navbox2{
   width:30%;height:0;margin:10.2% auto; padding: 0;
