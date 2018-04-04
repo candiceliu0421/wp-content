@@ -41,6 +41,7 @@
   position: absolute;
   left: 21%;
   top: 10%;
+  transform: skewX(15deg);
 }
 #nav2{
   width: 10%;
@@ -60,6 +61,7 @@
   position: absolute;
   left: 21%;
   top: 10%;
+  transform: skewX(15deg);
 }
 #nav3{
   width: 12%;
@@ -79,9 +81,10 @@
   position: absolute;
   left: 21%;
   top: 10%;
+  transform: skewX(15deg);
 }
 #nav4{
-  width: 12%;
+  width: 13%;
   height: 33%;
   left: 45%;
   top: 67%;
@@ -98,6 +101,7 @@
   position: absolute;
   left: 15%;
   top: 10%;
+  transform: skewX(15deg);
 }
 #navid4_2{
   font-size: 1.4em;
@@ -106,6 +110,7 @@
   position: absolute;
   left: 25%;
   top: 45%;
+  transform: skewX(15deg);
 }
 #nav5{
   width: 12%;
@@ -125,6 +130,7 @@
   position: absolute;
   left: 15%;
   top: 10%;
+  transform: skewX(15deg);
 }
 #navid5_2{
   font-size: 1.4em;
@@ -133,6 +139,7 @@
   position: absolute;
   left: 25%;
   top: 45%;
+  transform: skewX(15deg);
 }
 #nav6{
   width: 12%;
@@ -152,6 +159,7 @@
   position: absolute;
   left: 14%;
   top: 10%;
+  transform: skewX(15deg);
 }
 #nav7{
   width: 10%;
@@ -171,6 +179,7 @@
   position: absolute;
   left: 21%;
   top: 10%;
+  transform: skewX(15deg);
 }  
 
 .hp-img_wrapper { 
@@ -197,7 +206,7 @@
 
 /*關於本室兩個大梯形*/
 .navbox1_3{
-  width:25%;height:0;margin:10.3% auto; padding: 0;
+  width:25%;height:0;margin:11% auto; padding: 0;
   border-right:76px solid transparent;
   border-top:562px solid #F4A22C;  
   z-index: 10;
@@ -249,7 +258,7 @@
   font-size: 1.3em;
 }
 .navbox1_4{
-  width:79%;height:0;margin:10.3% auto; padding: 0; /*改寬度，改高低位置*/
+  width:79%;height:0;margin:11% auto; padding: 0; /*改寬度，改高低位置*/
   border-left:77px solid transparent;  /*改傾斜度*/
   border-bottom:562px solid #144959;  /*改高度*/
   z-index: 10;
