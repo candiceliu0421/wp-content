@@ -42,7 +42,8 @@
 <body>
 <div class="navbar">
   <div class="triangle"></div>
-    <img src="<?php bloginfo('template_url'); ?>/image/logo.png" alt="NCTU logo" width="360" height="75" style="position: relative; left: 6%; top: 1.5em;">
+
+  <a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/image/logo.png" alt="NCTU logo" width="360" height="75" style="position: relative; left: 6%; top: 1.5em;"></a>
 
    
 <!-- 
@@ -261,7 +262,7 @@
   <div class="pic1">
       <div class="picline1"></div>
       <div class="img1">
-        <img src="<?php bloginfo('template_url'); ?>/image/01.png" class="01" alt="01" style=" left: 80% ; top: 12%; position: relative; filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+        <img src="<?php bloginfo('template_url'); ?>/image/01.png" class="01" alt="01" style="  display:block;margin:auto; top: 12%; position: relative; filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
         <div class="text1">
           <p>適用勞基法</p>
           <p>專區</p>
@@ -277,7 +278,7 @@
 <div class="pic2"> 
   <div class="picline2"></div>
   <div class="img2">
-    <img src="<?php bloginfo('template_url'); ?>/image/02.png" alt="02" style=" position: relative; top: 12%; left: 50%;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url'); ?>/image/02.png" alt="02" style=" position: relative; top: 12%;  display:block;margin:auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text2">
       <p>外籍教職員</p>
       <p>專區</p>
@@ -288,7 +289,7 @@
 <div class="pic3">
   <div class="picline3"></div>
   <div class="img3">
-    <img src="<?php bloginfo('template_url'); ?>/image/03.png" alt="03" style="position: relative; top: 12%; left: 50%; filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url'); ?>/image/03.png" alt="03" style="position: relative; top: 12%;  display:block;margin:auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text3">
       <p>兼任教師</p>
       <p>專區</p>
@@ -299,7 +300,7 @@
 <div class="pic4">
   <div class="picline4"></div>
   <div class="img4">
-    <img src="<?php bloginfo('template_url'); ?>/image/04.png" alt="04" style=" position: relative; top: 12%; left: 50%; filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url'); ?>/image/04.png" alt="04" style=" position: relative; top: 12%;  display:block;margin:auto; filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text4">
       <p>學習與勞動</p>
       <p>權益專區</p>
@@ -310,7 +311,7 @@
 <div class="pic5">
   <div class="picline5"></div>
   <div class="img5">
-    <img src="<?php bloginfo('template_url'); ?>/image/05.png" alt="05" style=" position: relative; top: 12%; left: 50%; filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url'); ?>/image/05.png" alt="05" style=" position: relative; top: 12%;  display:block;margin:auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text5">
       <p>教師升等</p>
       <p>專區</p>
@@ -321,7 +322,7 @@
 <div class="pic6">
   <div class="picline6"></div>
   <div class="img6">
-    <img src="<?php bloginfo('template_url'); ?>/image/06.png" alt="06" style=" position: relative; top: 12%; left: 50%; filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url'); ?>/image/06.png" alt="06" style=" position: relative; top: 12%;  display:block;margin:auto; filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text6">
       <p>退休專區</p>
     </div>
@@ -331,11 +332,12 @@
 <div class="pic7">
   <div class="picline7"></div>
   <div class="img7">
-    <img src="<?php bloginfo('template_url'); ?>/image/07.png" alt="07" style=" position: relative; top: 12%; left: 50%; filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url'); ?>/image/07.png" alt="07" style=" position: relative; top: 12%;  display:block;margin:auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+
     <div class="text7">
       <p>福利專區 </p>  
 
-      <p style="font-size: 1%; top: 77%; left: 0%; position: absolute;">含自強康樂委員會</p>
+      <p>含自強康樂委員會</p>
 
     </div>
   </div>
@@ -356,7 +358,7 @@
 
 
 <div id="foot">
-  <img src="<?php bloginfo('template_url'); ?>/image/footer.png" alt="01" style=" position: relative; min-height:10% ; top: 0%; left: 0%; height: 4em;width: 100%;filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 1));">
+  <div id="foot-img"><img src="<?php bloginfo('template_url'); ?>/image/footer.png" alt="01" style=" position: relative; min-height:10% ; top: 0%; left: 0%; height: 4em;width: 100%;filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 1));"></div>
 
   <div id="foot-area1">
 <!-- 
@@ -373,19 +375,23 @@
  -->
     <div class="foot_title"> 法令&表格</div>
 
-    <div class="foot_link"> 新卸任交接│新進教師報到
-外籍教師聘任教師│教師升等留職停薪
-兼職│科技部延攬人才事項
-計畫類博士後研究人員服務證│在職證明
-職名章、日期章離職 / 變更身分
-優秀公教人員│出國│退休
-延長服務退撫基金│出差│請假
-公教人員保險勞健保業務
-教授休假研究│教師離校進修
-婚、喪、生育補助│子女教育補助
-申請離職儲金│國防工業緩召│健康檢查
-新進職員│職員陞遷│職工獎勵
-工作績效平時考核│年終考核│職員獎懲<p></div>
+    <div class="foot_link"> 
+      <table border="0">
+      <tr>新卸任交接│新進教師報到</p></tr>
+ <tr>外籍教師聘任教師│教師升等留職停薪</p></tr>
+ <tr>兼職│科技部延攬人才事項</p></tr>
+ <tr>計畫類博士後研究人員服務證│在職證明</p></tr>
+ <tr><p>職名章、日期章離職 / 變更身分</p></tr>
+ <tr><p>優秀公教人員│出國│退休</p></tr>
+ <tr>延長服務退撫基金│出差│請假</p></tr>
+ <tr>公教人員保險勞健保業務</p></tr>
+ <tr>教授休假研究│教師離校進修</p></tr>
+ <tr>婚、喪、生育補助│子女教育補助</p></tr>
+ <tr>申請離職儲金│國防工業緩召│健康檢查</p></tr>
+ <tr>新進職員│職員陞遷│職工獎勵</p></tr>
+ <tr>工作績效平時考核│年終考核│職員獎懲</p></tr>
+
+</table><p></div>
 <!--     <div class="foot_title"> 本室位置</div>
     <div class="foot_title"> 人事職掌</div>
     <div class="foot_title"> 本室願景</div>

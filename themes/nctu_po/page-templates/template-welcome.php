@@ -35,7 +35,20 @@
 	 		<h1>PERSONNEL</h1>
 	 		<h3>OFFICE</h3>
 	    </div>
-	    <img src="<?php bloginfo('template_url'); ?>/image/button.png" class="button" >
+
+<!--	    <img src="<?php bloginfo('template_url'); ?>/image/button.png" class="button" >-->
+
+
+		<div id="tool_bar">
+
+
+
+		    <div id = "lang">
+		      <div class="lang-left lang-normal">中文</div>
+		      <div class="lang-right lang-choose">EN</div>
+		    </div>
+
+		</div>
 
 	    <div class ="wrapper">
         <a href="<?php echo site_url(); ?>/homepage/"><img src="<?php bloginfo('template_url'); ?>/image/button01.png" class="button01" ></a>

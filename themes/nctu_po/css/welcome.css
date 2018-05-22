@@ -104,7 +104,7 @@ div.footer h3 {   /*國立交通大學人事室版權所有，請尊重智慧財
 
 div.b1 p {   /*新進人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 2.3em;
+	  font-size: 2.7em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
@@ -115,7 +115,7 @@ div.b1 p {   /*新進人員*/
 
 div.b2 p {   /*現職人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 2.3em;
+	  font-size: 2.7em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
@@ -126,7 +126,7 @@ div.b2 p {   /*現職人員*/
 
 div.b3 p {    /*退離人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 2.3em;
+	  font-size: 2.7em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
@@ -225,6 +225,7 @@ div.b3 p {    /*退離人員*/
 }
 */
 
+
 @media screen and (min-width: 1600px) and (max-width: 2000px){
     div.transbox h2 { /*國立交通大學人事室*/
 	  font-family: 'Noto Sans TC', sans-serif;
@@ -267,34 +268,34 @@ div.b3 p {    /*退離人員*/
 
     div.b1 p {   /*新進人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 2.7em;
+	  font-size: 3.5em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
 	  top: 53%;
-	  left: 37%;
+	  left: 37.5%;
 	  z-index: 2;
 	}
 
 	div.b2 p {   /*現職人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 2.7em;
+	  font-size: 3.5em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
 	  top: 53%;
-	  left: 56.5%;
-	  z-index: 2;
+	  left: 57.5%;
+	  z-index: 2
 	}
 
 	div.b3 p {    /*退離人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 2.7em;
+	  font-size:3.5em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
 	  top: 53%;
-	  left: 75.5%;
+	  left: 77.5%;
 	  z-index: 2;
  	}
 
@@ -302,7 +303,7 @@ div.b3 p {    /*退離人員*/
     .button01 /*新進人員圖*/
 	{
 		position: absolute;	
-		height: 54%;
+		height: 40%;
 		top: 35%;
 		right: 42%;
 		z-index: 1;
@@ -313,7 +314,7 @@ div.b3 p {    /*退離人員*/
 	.button02  /*現職人員圖*/
 	{
 		position:absolute;
-		height: 54%;
+		height: 40%;
 		top: 35%;
 		right: 23%;
 		z-index: 1;
@@ -323,7 +324,7 @@ div.b3 p {    /*退離人員*/
 	.button03 /*退離人員圖*/
 	{
 		position:absolute;
-		height: 54%;
+		height: 40%;
 		top: 35%;
 		right: 4%;
 		z-index: 1;
@@ -369,7 +370,8 @@ div.b3 p {    /*退離人員*/
 }
 
 @media screen and (min-width: 1536px) and (max-width: 1599px){
-	 div.transbox h2 { /*國立交通大學人事室*/
+
+	div.transbox h2 { /*國立交通大學人事室*/
 	  font-family: 'Noto Sans TC', sans-serif;
 	  font-size: 3.3em;
 	  color: #F9F9F9;
@@ -378,6 +380,7 @@ div.b3 p {    /*退離人員*/
 	  top: 30%;
 	  left: 115px;
 	}
+
 	div.transbox p {  /*NATIONAL CHIAOTUNG UNIVERSITY*/
 	  font-family: 'Noto Sans TC', sans-serif;
 	  font-size: 1.595em;
@@ -472,7 +475,7 @@ div.b3 p {    /*退離人員*/
 		z-index: 1;
 	}
 
-	 div.footer img {  /*房子icon*/
+	div.footer img {  /*房子icon*/
 	  position:absolute;
 	  left: 75px;
 	  bottom: 11%;
@@ -1258,7 +1261,7 @@ div.b3 p {    /*退離人員*/
 
 	div.b1 p {   /*新進人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 2.3em;
+	  font-size: 2.7em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
@@ -1269,7 +1272,7 @@ div.b3 p {    /*退離人員*/
 
 	div.b2 p {   /*現職人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 2.3em;
+	  font-size: 2.7m;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
@@ -1280,7 +1283,7 @@ div.b3 p {    /*退離人員*/
 
 	div.b3 p {    /*退離人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 2.3em;
+	  font-size: 2.7m;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
@@ -1376,8 +1379,156 @@ div.b3 p {    /*退離人員*/
 	}
 }
 
+/*新加的寬螢幕用測試*/
 
-@media (min-width: 769px) and (max-width: 992px){
+@media screen and (min-aspect-ratio: 16/10) and (min-width: 1000px){
+    div.transbox h2 { /*國立交通大學人事室*/
+	  font-family: 'Noto Sans TC', sans-serif;
+	  font-size: 3.3em;
+	  color: #F9F9F9;
+	  font-weight: normal;
+	  position:absolute;
+	  top: 30%;
+	  left: 115px;
+	}
+	div.transbox p {  /*NATIONAL CHIAOTUNG UNIVERSITY*/
+	  font-family: 'Noto Sans TC', sans-serif;
+	  font-size: 1.595em;
+	  color: #F9F9F9;
+	  font-weight: initial;
+	  position:absolute;
+	  top: 45%;
+	  left: 115px;
+	}
+
+	div.transbox h1 {  /*PERSONNEL*/
+	  font-family: 'Noto Sans TC', sans-serif;
+	  font-size: 3.5em;
+	  color: #F9F9F9;
+	  font-weight: bold;
+	  position:absolute;
+	  top: 51%;
+	  left: 115px;
+	}
+
+	div.transbox h3 {  /*OFFICE*/
+	  font-family: 'Noto Sans TC', sans-serif;
+	  font-size: 3.5em;
+	  color: #F9F9F9;
+	  font-weight: bold;
+	  position:absolute;
+	  top: 56%;
+	  left: 115px;
+	}
+
+    div.b1 p {   /*新進人員*/
+	  font-family: 'Noto Sans TC';
+	  font-size: 3.5em;
+	  color: #F9F9F9;
+	  font-weight: normal;
+	  position:absolute;
+	  top: 53%;
+	  left: 37.5%;
+	  z-index: 2;
+	}
+
+	div.b2 p {   /*現職人員*/
+	  font-family: 'Noto Sans TC';
+	  font-size: 3.5em;
+	  color: #F9F9F9;
+	  font-weight: normal;
+	  position:absolute;
+	  top: 53%;
+	  left: 57.5%;
+	  z-index: 2;
+	}
+
+	div.b3 p {    /*退離人員*/
+	  font-family: 'Noto Sans TC';
+	  font-size: 3.5em;
+	  color: #F9F9F9;
+	  font-weight: normal;
+	  position:absolute;
+	  top: 53%;
+	  left: 77.5%;
+	  z-index: 2;
+ 	}
+
+
+    .button01 /*新進人員圖*/
+	{
+		position: absolute;	
+		height: 50%;
+		top: 35%;
+		right:40%;
+		z-index: 1;
+	}
+
+
+
+	.button02  /*現職人員圖*/
+	{
+		position:absolute;
+		height: 50%;
+		top: 35%;
+		right: 20%;
+		z-index: 1;
+	}
+
+
+	.button03 /*退離人員圖*/
+	{
+		position:absolute;
+		height: 50%;
+		top: 35%;
+		right: 0%;
+		z-index: 1;
+	}
+
+	 div.footer img {  /*房子icon*/
+	  position:absolute;
+	  left: 75px;
+	  bottom: 11%;
+	  height: 3.0%;
+	  width: 1.6%;
+	}
+
+	div.footer h1 {   /*30010 新竹市大學路1001號*/
+	  font-family: 'Noto Sans TC';
+	  font-size: 0.9375em;
+	  color: #F9F9F9;
+	  font-weight: lighter;
+	  position:absolute;
+	  left: 115px;
+	  bottom: 10%;
+	}
+
+	div.footer h2 {   /*最佳瀏覽環境| IE 8 以上版本 |; 建議解析度 | 1024 x 768*/
+	  font-family: 'Noto Sans TC';
+	  font-size: 0.9375em;
+	  color: #F9F9F9;
+	  font-weight: lighter;
+	  position:absolute;
+	  left: 75px;
+	  bottom: 6%;
+	}
+
+	div.footer h3 {   /*國立交通大學人事室版權所有，請尊重智慧財產權勿任意轉載*/
+	  font-family: 'Noto Sans TC';
+	  font-size: 0.9375em;
+	  color: #F9F9F9;
+	  font-weight: lighter;
+	  position:absolute;
+	  left: 75px;
+	  bottom: 2%;
+ 	}
+}
+
+/*新加的寬螢幕用測試*/
+
+
+
+<@media (min-width: 769px) and (max-width: 992px){
 
 	div.transbox h2 { /*國立交通大學人事室*/
 	  font-family: 'Noto Sans TC', sans-serif;
@@ -1458,34 +1609,34 @@ div.b3 p {    /*退離人員*/
 
 	div.b1 p {   /*新進人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 1.7em;
+	  font-size: 2em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
 	  top: 50%;
-	  left: 40%;
+	  left: 37.5%;
 	  z-index: 2;
 	}
 
 	div.b2 p {   /*現職人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 1.7em;
+	  font-size: 2em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
 	  top: 50%;
-	  left: 58%;
+	  left: 57.5%;
 	  z-index: 2;
 	}
 
 	div.b3 p {    /*退離人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 1.7em;
+	  font-size: 2em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
 	  top: 50%;
-	  left: 76%;
+	  left: 77.5%;
 	  z-index: 2;
  	}
 
@@ -1518,7 +1669,7 @@ div.b3 p {    /*退離人員*/
 		position:absolute;
 		height: 42%;
 		top: 36%;
-		right: 22%;
+		right: 20%;
 		z-index: 1;
 	}
 
@@ -1528,12 +1679,13 @@ div.b3 p {    /*退離人員*/
 		position:absolute;
 		height: 42%;
 		top: 36%;
-		right: 4%;
+		right: 0%;
 		z-index: 1;
 	}
 
 	
 }
+
 
 @media (min-width: 769px) and (max-width: 880px){
 
@@ -1616,34 +1768,34 @@ div.b3 p {    /*退離人員*/
 
 	div.b1 p {   /*新進人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 1.7em;
+	  font-size: 2em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
 	  top: 50%;
-	  left: 44%;
+	  left: 37.5%;
 	  z-index: 2;
 	}
 
 	div.b2 p {   /*現職人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 1.7em;
+	  font-size: 2em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
 	  top: 50%;
-	  left: 61%;
+	  left: 57.5%;
 	  z-index: 2;
 	}
 
 	div.b3 p {    /*退離人員*/
 	  font-family: 'Noto Sans TC';
-	  font-size: 1.7em;
+	  font-size: 2em;
 	  color: #F9F9F9;
 	  font-weight: normal;
 	  position:absolute;
 	  top: 50%;
-	  left: 77%;
+	  left: 77.5%;
 	  z-index: 2;
  	}
 
@@ -1665,7 +1817,7 @@ div.b3 p {    /*退離人員*/
 		position: absolute;	
 		height: 40%;
 		top: 36%;
-		right: 37%;
+		right: 40%;
 		z-index: 1;
 	}
 
@@ -1676,7 +1828,7 @@ div.b3 p {    /*退離人員*/
 		position:absolute;
 		height: 40%;
 		top: 36%;
-		right: 20.5%;
+		right: 20%;
 		z-index: 1;
 	}
 
@@ -1686,7 +1838,7 @@ div.b3 p {    /*退離人員*/
 		position:absolute;
 		height: 40%;
 		top: 36%;
-		right: 4%;
+		right: 0%;
 		z-index: 1;
 	}
 
@@ -1694,10 +1846,53 @@ div.b3 p {    /*退離人員*/
 }
 
 
-	
 
-	
-
-
-
-
+#tool_bar{
+  width: 33%;
+  /*height: 33%;*/
+  left: 66%;
+  top: 5%;
+  position: fixed;
+  /*background-color: #F4A22C;*/
+}  
+.language-opt{/*
+  position: absolute;
+  top: 8vmin;
+  right: 8vmin;*/
+}
+.lang-normal{
+  background: #144959;
+  color: rgba(255,255,255,0.8);
+}
+.lang-left{
+  float: left;
+  width: 25%;
+/*  height: 3vmin;*/
+  left:45%;
+  top: 0%;
+  position: absolute;
+  border: solid 2px rgba(50,50,50,1);
+  border-top-left-radius: 1.5vmin;
+  border-bottom-left-radius: 1.5vmin;
+  z-index: 11;
+  text-align: center;
+  line-height: 3vmin;
+}
+.lang-choose{
+  color: rgba(1,1,1,1);
+}
+.lang-right{
+  float: left;
+  width: 25%;
+/*  height: 3vmin;*/
+  left:70%;
+  top: 0%;
+  position: absolute;
+  border: solid 2px rgba(50,50,50,1);
+  border-left-style: none;
+  border-top-right-radius: 1.5vmin;
+  border-bottom-right-radius: 1.5vmin;
+  z-index: 10;
+  text-align: center;
+  line-height: 3vmin;
+}
