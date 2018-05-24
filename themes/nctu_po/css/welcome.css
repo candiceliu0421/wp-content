@@ -1861,17 +1861,17 @@ div.b3 p {    /*退離人員*/
   right: 8vmin;*/
 }
 .lang-normal{
-  background: #144959;
+  background: #54D6CE;
   color: rgba(255,255,255,0.8);
 }
 .lang-left{
   float: left;
-  width: 25%;
+  width: 16%;
 /*  height: 3vmin;*/
   left:45%;
   top: 0%;
   position: absolute;
-  border: solid 2px rgba(50,50,50,1);
+  border: solid 2px #54D6CE;
   border-top-left-radius: 1.5vmin;
   border-bottom-left-radius: 1.5vmin;
   z-index: 11;
@@ -1879,16 +1879,16 @@ div.b3 p {    /*退離人員*/
   line-height: 3vmin;
 }
 .lang-choose{
-  color: rgba(1,1,1,1);
+  color: #54D6CE;
 }
 .lang-right{
   float: left;
-  width: 25%;
+  width: 16%;
 /*  height: 3vmin;*/
-  left:70%;
+  left:60%;
   top: 0%;
   position: absolute;
-  border: solid 2px rgba(50,50,50,1);
+  border: solid 2px #54D6CE;
   border-left-style: none;
   border-top-right-radius: 1.5vmin;
   border-bottom-right-radius: 1.5vmin;

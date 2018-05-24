@@ -65,7 +65,7 @@
 }
 .lang-left{
   float: left;
-  width: 25%;
+  width: 16%;
 /*  height: 3vmin;*/
   left:45%;
   top: 0%;
@@ -82,9 +82,9 @@
 }
 .lang-right{
   float: left;
-  width: 25%;
+  width: 16%;
 /*  height: 3vmin;*/
-  left:70%;
+  left:60%;
   top: 0%;
   position: absolute;
   border: solid 2px rgba(50,50,50,1);
@@ -732,14 +732,11 @@ input[type=text] {
 }
 /*下方img1*/
 .img1{
-  z-index: 3;
-  position: fixed;
-  width: 14%;
-  /*top: 78%;*/
-  /*height: 23.5%;
-  width: 13%;*/
-  left: 0%;
+  left: 56%;
+  width: 100%;
+  height:100;
 
+  top: 78%;
 }
 
 img.01{
@@ -749,100 +746,113 @@ img.01{
   -o-box-shadow: inset 0px 0px 50px 0px #ABABAB,2px -8px 18px 10px #242424;
 }
 .text1{
-  position: absolute;
-  top:110%;
-  width:100%;
-  left: 0%;
-  text-align:center;
+  position: relative;
+
   /*background-color: black;*/
   color: #040000;
   font-size: 1.3em;
+
+
+  top: 25px;
+  width:100%;
+  left: 0%;
+  text-align:center;
 
   font-weight: 500;
   line-height: 1.0em;
 }
 /*下方img2*/
 .img2{
-  z-index: 3;
-  position: fixed;
-  left: 14%;
-    width: 14%;
+  left: 56%;
+  width: 100%;
+  height:100;
 
+  top: 78%;
   /*top: 78%;*/
   /*height: 23.5%;
   width: 13%;*/
 }
 .text2{
-  position: absolute;
+  position: relative;
 
-
-
-  top: 110%;
-  width:100%;
-  left: 0%;
-  text-align:center;
   /*background-color: black;*/
   color: #040000;
   font-size: 1.3em;
+
+
+  top: 25px;
+  width:100%;
+  left: 0%;
+  text-align:center;
+
   font-weight: 500;
   line-height: 1.0em;
 }
 /*下方img3*/
 .img3{
-  z-index: 3;
-  position: fixed;
-  left: 28%;
-    width: 14%;
+  left: 56%;
+  width: 100%;
+  height:100;
 
+  top: 78%;
   /*top: 78%;*/
   /*height: 23.5%;
   width: 13%;*/
 }
 .text3{
-  position: absolute;
+  position: relative;
 
-  top: 110%;
-  width:100%;
-  left: 0%;
-  text-align:center;
   /*background-color: black;*/
   color: #040000;
   font-size: 1.3em;
+
+
+  top: 25px;
+  width:100%;
+  left: 0%;
+  text-align:center;
+
   font-weight: 500;
   line-height: 1.0em;
 }
 /*下方img4*/
 .img4{
   z-index: 3;
-  position: fixed;
-  left: 42%;
-    width: 14%;
+  /*position: fixed;*/
+  left: 56%;
+  width: 100%;
+  height:100;
 
-
+  top: 78%;
   /*top: 78%;*//*
   height: 23.5%;
   width: 13%;*/
 }
 .text4{
-  position: absolute;
+  position: relative;
 
-  top: 110%;
-  width:100%;
-  left: 0%;
-  text-align:center;
   /*background-color: black;*/
   color: #040000;
   font-size: 1.3em;
+
+
+  top: 25px;
+  width:100%;
+  left: 0%;
+  text-align:center;
+
   font-weight: 500;
   line-height: 1.0em;
 }
 /*下方img5*/
 .img5{
   z-index: 3;
-  position: fixed;
+  /*position: fixed;*/
   left: 56%;
-    width: 14%;
+  width: 100%;
+  height:100;
 
+  top: 78%;
 
  /*top:78%;/*
 
@@ -850,14 +860,14 @@ img.01{
   width: 13%;*/
 }
 .text5{
-  position: absolute;
+  position: relative;
 
   /*background-color: black;*/
   color: #040000;
   font-size: 1.3em;
 
 
-  top: 110%;
+  top: 25px;
   width:100%;
   left: 0%;
   text-align:center;
@@ -868,50 +878,52 @@ img.01{
 /*下方img6*/
 .img6{
   z-index: 3;
-  position: fixed;
-  left: 70%;
-    width: 14%;
+  /*position: fixed;*/
+  left: 56%;
+  width: 100%;
+  height:100;
 
+  top: 78%;
  /*top: 78%;*//*
   height: 23.5%;
   width: 13%;*/
 }
-.text6{
-  position: absolute;
+.text6{ 
+   position: relative;
 
-  top: 110%;
+  /*background-color: black;*/
+  color: #040000;
+  font-size: 1.3em;
+
+
+  top: 25px;
   width:100%;
   left: 0%;
   text-align:center;
-  /*background-color: black;*/
-  color: #040000;
-  /*bottom: 0%;*/
 
-  font-size: 1.3em;
   font-weight: 500;
   line-height: 1.0em;
 }
 /*下方img7*/
 .img7{
-  z-index: 3;
-  position: fixed;
-  left: 84%;
-    width: 16%;
+  left: 56%;
+  width: 100%;
+  height:100;
 
-  /*top: 78%;*//*
-  height: 23.5%;
-  width: 13%;*/
+  top: 78%;
 }
 .text7{
-  position: absolute;
+  position: relative;
 
-  top: 110%;
-  width:100%;
-  left: 0%;
-  text-align:center;
   /*background-color: black;*/
   color: #040000;
   font-size: 1.3em;
+
+
+  top: 25px;
+  width:100%;
+  left: 0%;
+  text-align:center;
 
   font-weight: 500;
   line-height: 1.0em;

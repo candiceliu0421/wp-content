@@ -22,24 +22,7 @@ $(document).ready(function () {
 
 });
 
-$(document).ready(function(){
-    $("#foot-img").click(function(){
-        $("#foot-area1").hide();
-        $("#foot-area2").hide();
-        $("#foot-area3").hide();
-        $("#foot-area4").hide();
-        $("#foot-area5").hide();
-        $("#foot-area6").hide();
-    });
-    $("#foot-img").click(function(){
-        $("#foot-area1").show();
-        $("#foot-area2").show();
-        $("#foot-area3").show();
-        $("#foot-area4").show();
-        $("#foot-area5").show();
-        $("#foot-area6").show();
-    });
-});
+
 
 // $(document).ready(function(){
 //     $("#navboxw1_3").click(function(){

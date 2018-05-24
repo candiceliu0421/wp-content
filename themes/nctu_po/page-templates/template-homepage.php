@@ -262,14 +262,14 @@
   <div class="pic1">
       <div class="picline1"></div>
       <div class="img1">
-        <img src="<?php bloginfo('template_url'); ?>/image/01.png" class="01" alt="01" style="  display:block;margin:auto; top: 12%; position: relative; filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+        <img src="<?php bloginfo('template_url'); ?>/image/01.png" class="01" alt="01" style="  z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
         <div class="text1">
           <p>適用勞基法</p>
           <p>專區</p>
           <br></br>
           <br></br>
           <br></br>
-          ttt
+          
         </div>
     </div>
   </div>
@@ -278,7 +278,7 @@
 <div class="pic2"> 
   <div class="picline2"></div>
   <div class="img2">
-    <img src="<?php bloginfo('template_url'); ?>/image/02.png" alt="02" style=" position: relative; top: 12%;  display:block;margin:auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url'); ?>/image/02.png" alt="02" style="  z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text2">
       <p>外籍教職員</p>
       <p>專區</p>
@@ -289,7 +289,7 @@
 <div class="pic3">
   <div class="picline3"></div>
   <div class="img3">
-    <img src="<?php bloginfo('template_url'); ?>/image/03.png" alt="03" style="position: relative; top: 12%;  display:block;margin:auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url'); ?>/image/03.png" alt="03" style=" z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text3">
       <p>兼任教師</p>
       <p>專區</p>
@@ -300,7 +300,7 @@
 <div class="pic4">
   <div class="picline4"></div>
   <div class="img4">
-    <img src="<?php bloginfo('template_url'); ?>/image/04.png" alt="04" style=" position: relative; top: 12%;  display:block;margin:auto; filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url'); ?>/image/04.png" alt="04" style=" z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text4">
       <p>學習與勞動</p>
       <p>權益專區</p>
@@ -311,18 +311,21 @@
 <div class="pic5">
   <div class="picline5"></div>
   <div class="img5">
-    <img src="<?php bloginfo('template_url'); ?>/image/05.png" alt="05" style=" position: relative; top: 12%;  display:block;margin:auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url'); ?>/image/05.png" alt="05" style=" z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+
     <div class="text5">
       <p>教師升等</p>
       <p>專區</p>
     </div>
+
   </div>
+
 </div>
 
 <div class="pic6">
   <div class="picline6"></div>
   <div class="img6">
-    <img src="<?php bloginfo('template_url'); ?>/image/06.png" alt="06" style=" position: relative; top: 12%;  display:block;margin:auto; filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url'); ?>/image/06.png" alt="06" style="  z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text6">
       <p>退休專區</p>
     </div>
@@ -332,7 +335,7 @@
 <div class="pic7">
   <div class="picline7"></div>
   <div class="img7">
-    <img src="<?php bloginfo('template_url'); ?>/image/07.png" alt="07" style=" position: relative; top: 12%;  display:block;margin:auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url'); ?>/image/07.png" alt="07" style="  z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
 
     <div class="text7">
       <p>福利專區 </p>  
