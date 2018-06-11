@@ -24,20 +24,7 @@
   <style type="text/css"></style>
 </head>
 <script type="text/javascript">
-  function myFunction(){
-    var x = document.getElementById("myDiv1");
-    if(x.style.display === "none"){
-      x.style.display = "block";
-    }else{
-      x.style.display = "none";
-    }
-  }
-  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-  $(document).ready(function(){
-    $("#close").click(function(){
-        $(".navbox6_map").hide();
-    });
-});  
+
 </script>
 <body>
 <div class="navbar">
@@ -133,13 +120,7 @@
   </div>
   <div class="navbox4_2">
     <div id="navboxw4_2">
-      <div id="navboxw4_2_1" onclick="myFunction()">人 事 管 理 系 統<br></div>
-
-      <div id="myDiv1"><hr>系統介紹 編制外專任人員請核/異動:本校計畫士後研究(價創計畫研究人員)、科技部補助<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;延攬客座科技人才、約聘助教、約聘研究人員、研發替代役、約用人員、計畫約用<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人員及全時工讀生辦理請核/異動作業<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;專任人員離職交代:本校專任人員辦理離職程序<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;兼任教師請核:兼任教師辦理請核作業<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;兼任人員及臨時工請核/異動:兼任人員或臨時工請核/異動作業<hr>承辦項目/<br>a<br>a<br>a<br>a</div>
-      <div id="navboxw4_2_2" style="overflow-y: visible;">人 才 媒 合 資 料 庫 平 台 <br></div>
-      <div id="navboxw4_2_3" style="overflow-y: visible;">工 作 費 請 款 系 統 <br></div>
-      <div id="navboxw4_2_4" style="overflow-y: visible;">差 勤 系 統 <br></div>
-      <div id="navboxw4_2_5" style="overflow-y: visible;">兼 任 差 勤 及 服 務 管 理 系 統 <br></div>
+      
     </div>
   </div>
 </div>

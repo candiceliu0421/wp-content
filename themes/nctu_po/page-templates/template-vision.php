@@ -27,7 +27,7 @@
 <body>
 <div class="navbar">
   <div class="triangle"></div>
-    <img src="<?php bloginfo('template_url'); ?>/image/logo.png" alt="NCTU logo" width="360" height="75" style="position: relative; left: 6%; top: 1.5em;">
+    <a href="<?php echo site_url(); ?>/homepage/"><img src="<?php bloginfo('template_url'); ?>/image/logo.png" alt="NCTU logo" width="360" height="75" style="position: relative; left: 6%; top: 1.5em;"></a>
 
     <img src="<?php bloginfo('template_url'); ?>/image/search.png" alt="NCTU logo" width="155" height="30" style="position: relative; left: 40%; top: 1.2em;">
 
