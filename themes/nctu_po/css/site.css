@@ -482,3 +482,136 @@ p#s5:hover +p#s5_1{
   display: block;
 }
 
+/*關於本室，訊息公告.....hover後橘色效果*/
+#nav1:hover{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav1:hover #navid1{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+
+#nav2:hover{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav2:hover #navid2{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav3:hover{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav3:hover #navid3{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav4:hover{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav4:hover #navid4_1{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav4:hover #navid4_2{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav5:hover{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav5:hover #navid5_1{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav5:hover #navid5_2{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav6:hover{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav6:hover #navid6{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav7:hover{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav7:hover #navid7{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+
+/*關於本室，訊息公告.....點擊後橘色效果*/
+#nav1.click1{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav1.click1 #navid1{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+
+#nav2.click1{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav2.click1 #navid2{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav3.click1{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav3.click1 #navid3{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav4.click1{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav4.click1 #navid4_1{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav4.click1 #navid4_2{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav5.click1{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav5.click1 #navid5_1{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav5.click1 #navid5_2{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav6.click1{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav6.click1 #navid6{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}
+#nav7.click1{
+  background-color: #F4A22C;
+  color: #FFFFFF;
+}
+#nav7.click1 #navid7{
+  background-color: #F4A22C;
+  color: #F2F2F2;
+}

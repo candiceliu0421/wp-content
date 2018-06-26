@@ -29,7 +29,7 @@
   
 </script>
 <body>
-<div class="navbar">
+<a href="<?php echo site_url(); ?>/homepage/"><div class="navbar">
   <div class="triangle"></div>
     <a href="<?php echo site_url(); ?>/homepage/"><img src="<?php bloginfo('template_url'); ?>/image/logo.png" alt="NCTU logo" width="360" height="75" style="position: relative; left: 6%; top: 1.5em;"></a>
 
@@ -72,44 +72,44 @@
 </div>
 <div class="top" id="top_2">
   <div id="nav2">
-    <div id="navid2">訊息公告</div>
+    <a href="<?php echo site_url(); ?>/homepage/"><div id="navid2">訊息公告</div></a>
   </div>
   <div class="navbox2"></div>
   <div class="navbox2_2"></div>
 </div>
 <div class="top" id="top_3">
   <div id="nav3">
-    <div id="navid3">法令&表格</div>
+    <a href="<?php echo site_url(); ?>/homepage/"><div id="navid3">法令&表格</div></a>
   </div>
   <div class="navbox3"></div>
   <div class="navbox3_2"></div>
 </div>
 <div class="top" id="top_4">
   <div id="nav4">
-    <div id="navid4_1">人事業務標準</div>
-    <div id="navid4_2">作業流程</div>
+    <a href="<?php echo site_url(); ?>/homepage/"><div id="navid4_1">人事業務標準</div></a>
+    <a href="<?php echo site_url(); ?>/homepage/"><div id="navid4_2">作業流程</div></a>
   </div>
   <div class="navbox4"></div>
   <div class="navbox4_2"></div>
 </div>
 <div class="top" id="top_5">
   <div id="nav5">
-    <div id="navid5_1">公務員廉政</div>
-    <div id="navid5_2">倫理規範</div>
+    <a href="<?php echo site_url(); ?>/homepage/"><div id="navid5_1">公務員廉政</div></a>
+    <a href="<?php echo site_url(); ?>/homepage/"><div id="navid5_2">倫理規範</div></a>
   </div>
   <div class="navbox5"></div>
   <div class="navbox5_2"></div>
 </div>
 <div class="top" id="top_6">
   <div id="nav6">
-    <div id="navid6">出勤卡鐘位置</div>
+    <a href="<?php echo site_url(); ?>/homepage/"><div id="navid6">出勤卡鐘位置</div></a>
   </div>
   <div class="navbox6"></div>
   <div class="navbox6_2"></div>
 </div>
 <div class="top" id="top_7">
   <div id="nav7">
-    <div id="navid7">留言版</div>
+    <a href="<?php echo site_url(); ?>/homepage/"><div id="navid7">留言版</div></a>
   </div>
   <div class="navbox7"></div>
   <div class="navbox7_2"></div>
@@ -118,7 +118,7 @@
   <div class="bgd" style="background-image: url(<?php bloginfo('template_url'); ?>/image/picture.jpg");">
   </div>
 </div>
-</div>
+</div></a>
 <div class="footer">
   <img src="<?php bloginfo('template_url'); ?>/image/footer.png" alt="footer" width="100%" style="position: fixed; bottom: 0; left: 0;">
 </div>

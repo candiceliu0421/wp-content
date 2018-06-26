@@ -13,13 +13,13 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- bootstrap -->
-<link href="<?php bloginfo('template_url'); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<script src="<?php bloginfo('template_url'); ?>/bootstrap/js/bootstrap.min.js"></script>
+<link href="<?php bloginfo('template_url');?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="<?php bloginfo('template_url');?>/bootstrap/js/bootstrap.min.js"></script>
 
-<link href="<?php bloginfo('template_url'); ?>/css/homepage.css" rel="stylesheet">
-<link href="<?php bloginfo('template_url'); ?>/css/style.css" rel="stylesheet">
+<link href="<?php bloginfo('template_url');?>/css/homepage.css" rel="stylesheet">
+<link href="<?php bloginfo('template_url');?>/css/style.css" rel="stylesheet">
 
-<script src="<?php bloginfo('template_url'); ?>/js/homepage.js"></script>
+<script src="<?php bloginfo('template_url');?>/js/homepage.js"></script>
 
   <style type="text/css"></style>
 </head>
@@ -30,10 +30,10 @@
 <div class="navbar">
   <div class="triangle"></div>
 
-  <a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/image/logo.png" alt="NCTU logo" width="360" height="75" style="position: relative; left: 6%; top: 1.5em;"></a>
+  <a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_url');?>/image/logo.png" alt="NCTU logo" width="360" height="75" style="position: relative; left: 6%; top: 1.5em;"></a>
 
-   
-<!-- 
+
+<!--
     <form>
       <input type="text" name="search" placeholder="">
     </form>
@@ -58,7 +58,7 @@
 </div>
 
 
-    
+
 <div class="top" id="top_1">
   <div id="nav1">
     <div id="navid1">關於本室</div>
@@ -120,7 +120,7 @@
   </div>
   <div class="navbox4_2">
     <div id="navboxw4_2">
-      
+
     </div>
   </div>
 </div>
@@ -150,8 +150,8 @@
   <div class="navbox6"></div>
   <div class="navbox6_2"></div>
   <div class="navbox6_map">
-    
-    <div class="map1" style="background-image: url(<?php bloginfo('template_url'); ?>/image/clock_map_1.png");"></div>
+
+    <div class="map1" style="background-image: url(<?php bloginfo('template_url');?>/image/clock_map_1.png");"></div>
     <button id="close">X</button>
 
     <div  id=c_navi>
@@ -163,7 +163,7 @@
         <li>Menu1_2</li>
       </ul>
         </li>
-  
+
       </ul>
     </div>
 
@@ -199,13 +199,43 @@
   <div class="navbox2_2"></div>
 
 
-  <div class="bgd" style="background-image: url(<?php bloginfo('template_url'); ?>/image/picture.jpg");">
+<div class="bgd" style="background-image: url(<?php bloginfo('template_url');?>/image/picture.jpg");">
     <!-- 左欄box -->
-  <div class="one"><div class="one_word"> 105年度人事業務績效考核<br>第一組-第二名</div></div>
+  <div class="left-side-bar-bg">
+    <div class="left-side-bar-container">
+        <div class=" left-side-bar-element ">
+            重要訊息
+        </div>
+        <div class="left-side-bar-element ">
+            業務訊息
+        </div>
+        <div class="left-side-bar-element ">
+            法規訊息
+        </div>
+        <div class="left-side-bar-element ">
+            友校訊息
+        </div>
+        <div id="line" class="left-side-bar-element" style="border-style: solid;border-width:0.2px;height: 1px;width: 45%;">
+
+
+        </div>
+        <div class="left-side-bar-element ">
+            動態行事曆
+        </div>
+        <div class="left-side-bar-element ">
+            加保人數
+        </div>
+    </div>
+</div>
+<div class="right-bg"></div>
+</div>
+
+
+  <!-- <div class="one"><div class="one_word"> 105年度人事業務績效考核<br>第一組-第二名</div></div>
   <div class="two"><div class="two_word"> 105年度人事業務績效考核<br>第一組-第二名</div></div>
-  <div class="three"><div class="three_word"> 本校106年八月份公勞保人數4,876人<br>(職員244人、教師1,267人、駐衛警15人、聘僱人員及其他人員3,237人、技工友...<br></div></div>
+  <div class="three"><div class="three_word"> 本校106年八月份公勞保人數4,876人<br>(職員244人、教師1,267人、駐衛警15人、聘僱人員及其他人員3,237人、技工友...<br></div></div> -->
   <!-- 左欄文字 -->
-  <div id="left_words">
+  <!-- <div id="left_words">
     <div id ="left" style="position: absolute; top: 5%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 動態</div>
     <div id ="left" style="position: absolute; top: 15%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 行事曆</div>
     <div id ="left" style="position: absolute; top: 40%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 工作</div>
@@ -213,11 +243,11 @@
     <div id ="left" style="position: absolute; top: 70%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 加保</div>
     <div id ="left" style="position: absolute; top: 80%; left: 3%; font-size: 2.0em; z-index: 8; font-weight: 500; color:  #040000;"> 人數</div>
     <div id ="left7" style="position: absolute; top: 80%; left: 9%; font-size: 1.7em; z-index: 8; font-weight: 500; color:  #040000; display: block;"> 4,876人</div>
-  </div>
+  </div> -->
 
 
 
-  <div id = "right1" style="position: absolute; top: 0%;width:20%;height:20%; right:0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B;  border-bottom: 2px solid #1E4E5D;">
+  <!-- <div id = "right1" style="position: absolute; top: 0%;width:20%;height:20%; right:0; font-size: 1.8em; z-index: 8; font-weight: 500; color:#FFFFFF; background-color: #385D6B;  border-bottom: 2px solid #1E4E5D;">
    <div id ="w1" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 33%; top: 20%;">一 般 訊 息</div>
   </div>
   <div id ="rbox1"> text_right1 </div>
@@ -237,29 +267,29 @@
     <div id ="w5" style="position: absolute; font-size: 1.0em; font-weight: 400; color: #FFFFFF; z-index: 8; left: 33%; top: 20%;">業 務 訊 息</div>
   </div>
     <div id ="rbox5"> text_right5 </div>
-  </div>
+  </div> -->
 
 
   <div class="pic1">
       <div class="picline1"></div>
       <div class="img1">
-        <img src="<?php bloginfo('template_url'); ?>/image/01.png" class="01" alt="01" style="  z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+        <img src="<?php bloginfo('template_url');?>/image/01.png" class="01" alt="01" style="  z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
         <div class="text1">
           <p>適用勞基法</p>
           <p>專區</p>
           <br></br>
           <br></br>
           <br></br>
-          
+
         </div>
     </div>
   </div>
 
-      
-<div class="pic2"> 
+
+<div class="pic2">
   <div class="picline2"></div>
   <div class="img2">
-    <img src="<?php bloginfo('template_url'); ?>/image/02.png" alt="02" style="  z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url');?>/image/02.png" alt="02" style="  z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text2">
       <p>外籍教職員</p>
       <p>專區</p>
@@ -270,7 +300,7 @@
 <div class="pic3">
   <div class="picline3"></div>
   <div class="img3">
-    <img src="<?php bloginfo('template_url'); ?>/image/03.png" alt="03" style=" z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url');?>/image/03.png" alt="03" style=" z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text3">
       <p>兼任教師</p>
       <p>專區</p>
@@ -281,7 +311,7 @@
 <div class="pic4">
   <div class="picline4"></div>
   <div class="img4">
-    <img src="<?php bloginfo('template_url'); ?>/image/04.png" alt="04" style=" z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url');?>/image/04.png" alt="04" style=" z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text4">
       <p>學習與勞動</p>
       <p>權益專區</p>
@@ -292,7 +322,7 @@
 <div class="pic5">
   <div class="picline5"></div>
   <div class="img5">
-    <img src="<?php bloginfo('template_url'); ?>/image/05.png" alt="05" style=" z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url');?>/image/05.png" alt="05" style=" z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
 
     <div class="text5">
       <p>教師升等</p>
@@ -306,7 +336,7 @@
 <div class="pic6">
   <div class="picline6"></div>
   <div class="img6">
-    <img src="<?php bloginfo('template_url'); ?>/image/06.png" alt="06" style="  z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url');?>/image/06.png" alt="06" style="  z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
     <div class="text6">
       <p>退休專區</p>
     </div>
@@ -316,10 +346,10 @@
 <div class="pic7">
   <div class="picline7"></div>
   <div class="img7">
-    <img src="<?php bloginfo('template_url'); ?>/image/07.png" alt="07" style="  z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
+    <img src="<?php bloginfo('template_url');?>/image/07.png" alt="07" style="  z-index:11;position: relative; top: 20px;  display:block;height:75px;width:75px;margin:0 auto;filter: drop-shadow(4px 2px 15px rgba(0, 0, 0, 0.9));">
 
     <div class="text7">
-      <p>福利專區 </p>  
+      <p>福利專區 </p>
 
       <p>含自強康樂委員會</p>
 
@@ -342,10 +372,10 @@
 
 
 <div id="foot">
-  <div id="foot-img"><img src="<?php bloginfo('template_url'); ?>/image/footer.png" alt="01" style=" position: relative; min-height:10% ; top: 0%; left: 0%; height: 4em;width: 100%;filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 1));"></div>
+  <div id="foot-img"><img src="<?php bloginfo('template_url');?>/image/footer.png" alt="01" style=" position: relative; min-height:10% ; top: 0%; left: 0%; height: 4em;width: 100%;filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 1));"></div>
 
   <div id="foot-area1">
-<!-- 
+<!--
     <div id = "area1_1 "> -->
       <div class="foot_title"> <p><p>關於本室</p></p></div>
       <div class="foot_link"> <p><p>本室簡介|本室位置|人事職掌|本室願景|工作成果</p></p></div>
@@ -359,7 +389,7 @@
  -->
     <div class="foot_title"> 法令&表格</div>
 
-    <div class="foot_link"> 
+    <div class="foot_link">
       <table border="0">
       <tr>新卸任交接│新進教師報到</p></tr>
  <tr>外籍教師聘任教師│教師升等留職停薪</p></tr>
@@ -496,9 +526,8 @@
 
 
 <!-- <div class="footer">
-  <img src="<?php bloginfo('template_url'); ?>/image/footer.png" alt="footer" width="100%" style="position: fixed; bottom: 0; left: 0;">
+  <img src="<?php bloginfo('template_url');?>/image/footer.png" alt="footer" width="100%" style="position: fixed; bottom: 0; left: 0;">
 </div> -->
 
-<?php get_template_part('includes/footer'); ?>
 </body>
 </html>

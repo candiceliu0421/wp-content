@@ -39,5 +39,14 @@ $(document).ready(function () {
     });
 });
 
-
+//left-side-bar
+$(function(){
+    $(".left-side-bar-element").hover(function() {
+        $(this).css("color","#FFFFFF");
+        $(".right-bg").css("display","inline");
+    }, function() {
+        $(this).css("color","#f4a22c");
+        $(".right-bg").css("display","none");
+    });
+});
 

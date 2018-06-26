@@ -3,7 +3,7 @@ function template_is($pageName='') {
     return is_page_template('page-templates/template-'.$pageName.'.php');
 }
 
-$translate = qtranxf_getLanguage()!='zh' ? true : false;
+$translate = get_bloginfo('language')=='zh' ? true : false;
 
 register_nav_menu('top-navbar', __('Main menu', 'bst'));
 
